@@ -298,7 +298,8 @@ if(NOT NONET)
   list(APPEND devilutionx_SRCS
     SourceX/dvlnet/tcp_client.cpp
     SourceX/dvlnet/tcp_server.cpp
-    SourceX/dvlnet/udp_p2p.cpp)
+    SourceX/dvlnet/protocol_zt.cpp
+    SourceX/dvlnet/base_protocol.cpp)
 endif()
 
 set(BIN_TARGET devilutionx)
@@ -592,4 +593,21 @@ if(${CMAKE_SYSTEM_NAME} STREQUAL Linux)
   install (FILES "${PROJECT_SOURCE_DIR}/Packaging/resources/LICENSE.CharisSILB.txt" DESTINATION ./)
   install (FILES "${PROJECT_SOURCE_DIR}/Packaging/nix/README.txt" DESTINATION ./)
   include(CPack)
+endif()
+
+if(NOT NONET)
+  add_subdirectory(3rdParty/libzt EXCLUDE_FROM_ALL)
+  target_link_libraries(devilutionx PRIVATE zt-static)
+  target_include_directories(devilutionx PRIVATE
+	3rdParty/libzt/include
+	3rdParty/libzt/src
+	3rdParty/libzt/ext/lwip-contrib/ports/unix/port/include
+	3rdParty/libzt/ext/lwip/src/include)
+  # External library, ignore all warnings
+  target_compile_options(zto_obj PRIVATE -fpermissive -w)
+  target_compile_options(libnatpmp_obj PRIVATE -fpermissive -w)
+  target_compile_options(libzt_obj PRIVATE -fpermissive -w)
+  target_compile_options(lwip_obj PRIVATE -fpermissive -w)
+  target_compile_options(miniupnpc_obj PRIVATE -fpermissive -w)
+  target_compile_options(zt-static PRIVATE -fpermissive -w)
 endif()

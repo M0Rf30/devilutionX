@@ -1,4 +1,6 @@
 #include <memory>
+#include <mutex>
+#include <thread>
 
 #include "all.h"
 #include "stubs.h"
@@ -9,9 +11,11 @@ namespace dvl {
 static std::unique_ptr<net::abstract_net> dvlnet_inst;
 static char gpszGameName[128] = {};
 static char gpszGamePassword[128] = {};
+static std::mutex storm_net_mutex;
 
 BOOL SNetReceiveMessage(int *senderplayerid, char **data, int *databytes)
 {
+	std::lock_guard<std::mutex> lg(storm_net_mutex);
 	if (!dvlnet_inst->SNetReceiveMessage(senderplayerid, data, databytes)) {
 		SErrSetLastError(STORM_ERROR_NO_MESSAGES_WAITING);
 		return false;
@@ -21,12 +25,14 @@ BOOL SNetReceiveMessage(int *senderplayerid, char **data, int *databytes)
 
 BOOL SNetSendMessage(int playerID, void *data, unsigned int databytes)
 {
+	std::lock_guard<std::mutex> lg(storm_net_mutex);
 	return dvlnet_inst->SNetSendMessage(playerID, data, databytes);
 }
 
 BOOL SNetReceiveTurns(int a1, int arraysize, char **arraydata, unsigned int *arraydatabytes,
     DWORD *arrayplayerstatus)
 {
+	std::lock_guard<std::mutex> lg(storm_net_mutex);
 	if (a1 != 0)
 		UNIMPLEMENTED();
 	if (arraysize != MAX_PLRS)
@@ -40,36 +46,43 @@ BOOL SNetReceiveTurns(int a1, int arraysize, char **arraydata, unsigned int *arr
 
 BOOL SNetSendTurn(char *data, unsigned int databytes)
 {
+	std::lock_guard<std::mutex> lg(storm_net_mutex);
 	return dvlnet_inst->SNetSendTurn(data, databytes);
 }
 
 int SNetGetProviderCaps(struct _SNETCAPS *caps)
 {
+	std::lock_guard<std::mutex> lg(storm_net_mutex);
 	return dvlnet_inst->SNetGetProviderCaps(caps);
 }
 
 BOOL SNetUnregisterEventHandler(int evtype, SEVTHANDLER func)
 {
+	std::lock_guard<std::mutex> lg(storm_net_mutex);
 	return dvlnet_inst->SNetUnregisterEventHandler(*(event_type *)&evtype, func);
 }
 
 BOOL SNetRegisterEventHandler(int evtype, SEVTHANDLER func)
 {
+	std::lock_guard<std::mutex> lg(storm_net_mutex);
 	return dvlnet_inst->SNetRegisterEventHandler(*(event_type *)&evtype, func);
 }
 
 BOOL SNetDestroy()
 {
+	std::lock_guard<std::mutex> lg(storm_net_mutex);
 	return true;
 }
 
 BOOL SNetDropPlayer(int playerid, DWORD flags)
 {
+	std::lock_guard<std::mutex> lg(storm_net_mutex);
 	return dvlnet_inst->SNetDropPlayer(playerid, flags);
 }
 
 BOOL SNetGetGameInfo(int type, void *dst, unsigned int length, unsigned int *byteswritten)
 {
+	std::lock_guard<std::mutex> lg(storm_net_mutex);
 	switch (type) {
 	case GAMEINFO_NAME:
 		strncpy((char *)dst, gpszGameName, length);
@@ -86,6 +99,7 @@ BOOL SNetGetGameInfo(int type, void *dst, unsigned int length, unsigned int *byt
 
 BOOL SNetLeaveGame(int type)
 {
+	std::lock_guard<std::mutex> lg(storm_net_mutex);
 	if (dvlnet_inst == nullptr)
 		return true;
 	return dvlnet_inst->SNetLeaveGame(type);
@@ -100,6 +114,7 @@ int SNetInitializeProvider(unsigned long provider, struct _SNETPROGRAMDATA *clie
     struct _SNETPLAYERDATA *user_info, struct _SNETUIDATA *ui_info,
     struct _SNETVERSIONDATA *fileinfo)
 {
+	std::lock_guard<std::mutex> lg(storm_net_mutex);
 	dvlnet_inst = net::abstract_net::make_net(provider);
 	return ui_info->selectnamecallback(client_info, user_info, ui_info, fileinfo, provider, NULL, 0, NULL, 0, NULL);
 }
@@ -111,22 +126,22 @@ BOOL SNetCreateGame(const char *pszGameName, const char *pszGamePassword, const 
     DWORD dwGameType, char *GameTemplateData, int GameTemplateSize, int playerCount,
     char *creatorName, char *a11, int *playerID)
 {
+	std::lock_guard<std::mutex> lg(storm_net_mutex);
 	if (GameTemplateSize != 8)
 		ABORT();
 	net::buffer_t game_init_info(GameTemplateData, GameTemplateData + GameTemplateSize);
 	dvlnet_inst->setup_gameinfo(std::move(game_init_info));
 
-	char addrstr[129] = "0.0.0.0";
-	getIniValue("dvlnet", "bindaddr", addrstr, 128);
-	strncpy(gpszGameName, addrstr, sizeof(gpszGameName) - 1);
+	strncpy(gpszGameName, pszGameName, sizeof(gpszGameName) - 1);
 	if (pszGamePassword)
 		strncpy(gpszGamePassword, pszGamePassword, sizeof(gpszGamePassword) - 1);
-	*playerID = dvlnet_inst->create(addrstr, pszGamePassword);
+	*playerID = dvlnet_inst->create(pszGameName, pszGamePassword);
 	return *playerID != -1;
 }
 
 BOOL SNetJoinGame(int id, char *pszGameName, char *pszGamePassword, char *playerName, char *userStats, int *playerID)
 {
+	std::lock_guard<std::mutex> lg(storm_net_mutex);
 	if (pszGameName)
 		strncpy(gpszGameName, pszGameName, sizeof(gpszGameName) - 1);
 	if (pszGamePassword)
@@ -140,11 +155,13 @@ BOOL SNetJoinGame(int id, char *pszGameName, char *pszGamePassword, char *player
  */
 BOOL SNetGetOwnerTurnsWaiting(DWORD *turns)
 {
+	std::lock_guard<std::mutex> lg(storm_net_mutex);
 	return dvlnet_inst->SNetGetOwnerTurnsWaiting(turns);
 }
 
 BOOL SNetGetTurnsInTransit(int *turns)
 {
+	std::lock_guard<std::mutex> lg(storm_net_mutex);
 	return dvlnet_inst->SNetGetTurnsInTransit(turns);
 }
 
@@ -153,6 +170,7 @@ BOOL SNetGetTurnsInTransit(int *turns)
  */
 BOOLEAN SNetSetBasePlayer(int)
 {
+	std::lock_guard<std::mutex> lg(storm_net_mutex);
 	return true;
 }
 
@@ -161,6 +179,7 @@ BOOLEAN SNetSetBasePlayer(int)
  */
 BOOL SNetPerformUpgrade(DWORD *upgradestatus)
 {
+	std::lock_guard<std::mutex> lg(storm_net_mutex);
 	UNIMPLEMENTED();
 }
 

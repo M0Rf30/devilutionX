@@ -42,8 +42,15 @@ public:
 	virtual bool SNetGetTurnsInTransit(int *turns);
 	virtual void setup_gameinfo(buffer_t info);
 
+	cdwrap();
 	virtual ~cdwrap() = default;
 };
+
+template <class T>
+cdwrap<T>::cdwrap()
+{
+	reset();
+}
 
 template <class T>
 void cdwrap<T>::reset()
@@ -65,6 +72,7 @@ int cdwrap<T>::create(std::string addrstr, std::string passwd)
 template <class T>
 int cdwrap<T>::join(std::string addrstr, std::string passwd)
 {
+	game_init_info = buffer_t();
 	reset();
 	return dvlnet_wrap->join(addrstr, passwd);
 }

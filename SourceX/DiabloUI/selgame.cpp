@@ -53,7 +53,7 @@ constexpr UiArtText SELUDPGAME_DESCRIPTION_LABEL = UiArtText("Description:", { 3
 
 UiListItem SELUDPGAME_DIALOG_ITEMS[] = {
 	{ "Create Game", 0 },
-	{ "Enter IP", 1 },
+	{ "Join Game", 1 },
 };
 UiItem SELUDPGAME_DIALOG[] = {
 	MAINMENU_BACKGROUND,
@@ -74,6 +74,18 @@ UiItem ENTERIP_DIALOG[] = {
 	SELUDPGAME_DESCRIPTION_LABEL,
 	SELGAME_DESCRIPTION,
 	UiArtText("Enter IP", { 305, 211, 285, 33 }, UIS_CENTER | UIS_BIG),
+	UiEdit(selgame_Ip, 128, { 305, 314, 285, 33 }, UIS_MED | UIS_GOLD),
+	SELGAME_OK,
+	SELGAME_CANCEL,
+};
+
+UiItem ENTERNAME_DIALOG[] = {
+	MAINMENU_BACKGROUND,
+	MAINMENU_LOGO,
+	SELUDPGAME_TITLE,
+	SELUDPGAME_DESCRIPTION_LABEL,
+	SELGAME_DESCRIPTION,
+	UiArtText("Enter Gamename", { 305, 211, 285, 33 }, UIS_CENTER | UIS_BIG),
 	UiEdit(selgame_Ip, 128, { 305, 314, 285, 33 }, UIS_MED | UIS_GOLD),
 	SELGAME_OK,
 	SELGAME_CANCEL,
@@ -109,8 +121,14 @@ void selgame_GameSelection_Init()
 		return;
 	}
 
-	getIniValue("Phone Book", "Entry1", selgame_Ip, 128);
-	strcpy(title, "Client-Server (TCP)");
+	strcpy(selgame_Ip, "");
+	if (provider == SELCONN_ZT) {
+		getIniValue("Zerotier", "Gamename", selgame_Ip, 128);
+		strcpy(title, "Zerotier");
+	} else {
+		getIniValue("Phone Book", "Entry1", selgame_Ip, 128);
+		strcpy(title, "Client-Server (TCP)");
+	}
 	UiInitList(0, 1, selgame_GameSelection_Focus, selgame_GameSelection_Select, selgame_GameSelection_Esc, SELUDPGAME_DIALOG, size(SELUDPGAME_DIALOG));
 }
 
@@ -121,7 +139,11 @@ void selgame_GameSelection_Focus(int value)
 		strcpy(selgame_Description, "Create a new game with a difficulty setting of your choice.");
 		break;
 	case 1:
-		strcpy(selgame_Description, "Enter an IP and join a game already in progress at that address.");
+		if (provider == SELCONN_ZT) {
+			strcpy(selgame_Description, "Enter the name of a game already in progress.");
+		} else {
+			strcpy(selgame_Description, "Enter an IP and join a game already in progress at that address.");
+		}
 		break;
 	}
 	WordWrapArtStr(selgame_Description, SELGAME_DESCRIPTION.rect.w);
@@ -152,8 +174,13 @@ void selgame_GameSelection_Select(int value)
 		UiInitList(0, NUM_DIFFICULTIES - 1, selgame_Diff_Focus, selgame_Diff_Select, selgame_Diff_Esc, SELDIFF_DIALOG, size(SELDIFF_DIALOG));
 		break;
 	case 1:
-		strcpy(title, "Join TCP Games");
-		UiInitList(0, 0, NULL, selgame_Password_Init, selgame_GameSelection_Init, ENTERIP_DIALOG, size(ENTERIP_DIALOG));
+		if (provider == SELCONN_ZT) {
+			strcpy(title, "Join Zerotier Games");
+			UiInitList(0, 0, NULL, selgame_Password_Init, selgame_GameSelection_Init, ENTERNAME_DIALOG, size(ENTERNAME_DIALOG));
+		} else {
+			strcpy(title, "Join TCP Games");
+			UiInitList(0, 0, NULL, selgame_Password_Init, selgame_GameSelection_Init, ENTERIP_DIALOG, size(ENTERIP_DIALOG));
+		}
 		break;
 	}
 }
@@ -216,6 +243,11 @@ void selgame_Diff_Select(int value)
 		return;
 	}
 
+	if (provider == SELCONN_ZT) {
+		UiInitList(0, 0, NULL, selgame_Password_Init, selgame_GameSelection_Init, ENTERNAME_DIALOG, size(ENTERNAME_DIALOG));
+		return;
+	}
+
 	selgame_Password_Init(0);
 }
 
@@ -232,13 +264,21 @@ void selgame_Diff_Esc()
 void selgame_Password_Init(int value)
 {
 	memset(&selgame_Password, 0, sizeof(selgame_Password));
+	if (provider == SELCONN_ZT) {
+		getIniValue("Zerotier", "Password", selgame_Password, 15);
+	}
 	UiInitList(0, 0, NULL, selgame_Password_Select, selgame_Password_Esc, ENTERPASSWORD_DIALOG, size(ENTERPASSWORD_DIALOG));
 }
 
 void selgame_Password_Select(int value)
 {
 	if (selgame_selectedGame) {
-		setIniValue("Phone Book", "Entry1", selgame_Ip);
+		if (provider == SELCONN_ZT) {
+			setIniValue("Zerotier", "Gamename", selgame_Ip);
+			setIniValue("Zerotier", "Password", selgame_Password);
+		} else {
+			setIniValue("Phone Book", "Entry1", selgame_Ip);
+		}
 		if (SNetJoinGame(selgame_selectedGame, selgame_Ip, selgame_Password, NULL, NULL, gdwPlayerId)) {
 			if (!IsDifficultyAllowed(m_client_info->initdata->bDiff)) {
 				selgame_GameSelection_Select(1);
@@ -259,7 +299,15 @@ void selgame_Password_Select(int value)
 	_gamedata *info = m_client_info->initdata;
 	info->bDiff = gbDifficulty;
 
-	if (SNetCreateGame(NULL, selgame_Password, NULL, 0, (char *)info, sizeof(_gamedata), MAX_PLRS, NULL, NULL, gdwPlayerId)) {
+	if (provider == SELCONN_ZT) {
+		setIniValue("Zerotier", "Gamename", selgame_Ip);
+		setIniValue("Zerotier", "Password", selgame_Password);
+	} else {
+		strcpy(selgame_Ip, "0.0.0.0");
+		getIniValue("dvlnet", "bindaddr", selgame_Ip, 128);
+	}
+
+	if (SNetCreateGame(selgame_Ip, selgame_Password, NULL, 0, (char *)info, sizeof(_gamedata), MAX_PLRS, NULL, NULL, gdwPlayerId)) {
 		UiInitList(0, 0, NULL, NULL, NULL, NULL, 0);
 		selgame_endMenu = true;
 	} else {
@@ -272,7 +320,11 @@ void selgame_Password_Select(int value)
 
 void selgame_Password_Esc()
 {
-	selgame_GameSelection_Select(selgame_selectedGame);
+	if (provider == SELCONN_ZT) {
+		UiInitList(0, 0, NULL, selgame_Password_Init, selgame_GameSelection_Init, ENTERNAME_DIALOG, size(ENTERNAME_DIALOG));
+	} else {
+		selgame_GameSelection_Select(selgame_selectedGame);
+	}
 }
 
 int UiSelectGame(int a1, _SNETPROGRAMDATA *client_info, _SNETPLAYERDATA *user_info, _SNETUIDATA *ui_info,

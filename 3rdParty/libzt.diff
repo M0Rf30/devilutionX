@@ -1,0 +1,79 @@
+This is libzt from https://github.com/zerotier/libzt.git
+commit: 48d8dccff83ce0c0952c5c0059a34de349cace41
+
+Known problems:
+ * In some files lwip heades and in other files native headers are included.
+ * The destruction of the concurrent queue is not thread-safe, which sometimes
+   results in an unclean shutdown.
+
+diff -ru a/CMakeLists.txt b/CMakeLists.txt
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -1,4 +1,4 @@
+-cmake_minimum_required (VERSION 3.0)
++cmake_minimum_required (VERSION 3.10)
+ project (zt)
+ 
+ # -----------------------------------------------------------------------------
+diff -ru a/src/VirtualTap.cpp b/src/VirtualTap.cpp
+--- a/src/VirtualTap.cpp
++++ b/src/VirtualTap.cpp
+@@ -245,6 +245,11 @@
+ 	std::vector<MulticastGroup> newGroups;
+ 	Mutex::Lock _l(_multicastGroups_m);
+ 	// TODO: get multicast subscriptions
++
++	// Hardcoded MAC for IPv6 multicast address
++	// ff0e:a8a9:b611:58ce:0412:fd73:3786:6fb7
++	newGroups.push_back(MulticastGroup(MAC(0x33, 0x33, 0x37, 0x86, 0x6f, 0xb7), 0));
++
+ 	std::vector<InetAddress> allIps(ips());
+ 	for (std::vector<InetAddress>::iterator ip(allIps.begin());ip!=allIps.end();++ip)
+ 		newGroups.push_back(MulticastGroup::deriveMulticastGroupForAddressResolution(*ip));
+diff -ru a/src/lwipopts.h b/src/lwipopts.h
+--- a/src/lwipopts.h
++++ b/src/lwipopts.h
+@@ -118,7 +118,7 @@
+ // tcpip
+ #define TCPIP_MBOX_SIZE                 0
+ #define LWIP_TCPIP_CORE_LOCKING         1
+-#define LWIP_TCPIP_CORE_LOCKING_INPUT   1
++#define LWIP_TCPIP_CORE_LOCKING_INPUT   0
+ // netconn
+ #define LWIP_NETCONN_FULLDUPLEX         0
+ // netif
+@@ -968,14 +968,14 @@
+  * LWIP_BROADCAST_PING==1: respond to broadcast pings (default is unicast only)
+  */
+ #if !defined LWIP_BROADCAST_PING || defined __DOXYGEN__
+-#define LWIP_BROADCAST_PING             0
++#define LWIP_BROADCAST_PING             1
+ #endif
+ 
+ /**
+  * LWIP_MULTICAST_PING==1: respond to multicast pings (default is unicast only)
+  */
+ #if !defined LWIP_MULTICAST_PING || defined __DOXYGEN__
+-#define LWIP_MULTICAST_PING             0
++#define LWIP_MULTICAST_PING             1
+ #endif
+ /**
+  * @}
+@@ -1174,7 +1174,7 @@
+  * LWIP_IGMP==1: Turn on IGMP module.
+  */
+ #if !defined LWIP_IGMP || defined __DOXYGEN__
+-#define LWIP_IGMP                       0
++#define LWIP_IGMP                       1
+ #endif
+ #if !LWIP_IPV4
+ #undef LWIP_IGMP
+@@ -3176,7 +3176,7 @@
+  * @see debugging_levels
+  */
+ #if !defined LWIP_DBG_MIN_LEVEL || defined __DOXYGEN__
+-#define LWIP_DBG_MIN_LEVEL              LWIP_DBG_LEVEL_ALL
++#define LWIP_DBG_MIN_LEVEL              LWIP_DBG_LEVEL_SEVERE
+ #endif
+ 
+ /**

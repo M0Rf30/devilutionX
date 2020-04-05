@@ -23,10 +23,8 @@ UiArtText SELCONNECT_DIALOG_DESCRIPTION(selconn_Description, { 35, 275, 205, 66 
 // Should be in the same order than conn_type (See enums.h)
 UiListItem SELCONN_DIALOG_ITEMS[] = {
 #ifndef NONET
+	{ "Zerotier", SELCONN_ZT },
 	{ "Client-Server (TCP)", SELCONN_TCP },
-#ifdef BUGGY
-	{ "Peer-to-Peer (UDP)", SELCONN_UDP },
-#endif
 #endif
 	{ "Loopback", SELCONN_LOOPBACK },
 };
@@ -73,12 +71,10 @@ void selconn_Focus(int value)
 		strcpy(selconn_Description, "All computers must be connected to a TCP-compatible network.");
 		players = MAX_PLRS;
 		break;
-#ifdef BUGGY
-	case SELCONN_UDP:
-		strcpy(selconn_Description, "All computers must be connected to a UDP-compatible network.");
+	case SELCONN_ZT:
+		strcpy(selconn_Description, "All computers must be connected to the internet.");
 		players = MAX_PLRS;
 		break;
-#endif
 #endif
 	case SELCONN_LOOPBACK:
 		strcpy(selconn_Description, "Play by yourself with no network exposure.");
