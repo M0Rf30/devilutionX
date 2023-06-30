@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DevilutionX\n"
 "POT-Creation-Date: 2023-06-30 11:33+0200\n"
-"PO-Revision-Date: 2023-06-30 11:40+0200\n"
+"PO-Revision-Date: 2023-06-30 12:01+0200\n"
 "Last-Translator: Gianluca Boiano <morf3089@gmail.com>\n"
 "Language-Team: zuminator.altervista.org\n"
 "Language: it\n"
@@ -2368,170 +2368,170 @@ msgstr "Oro"
 
 #: Source/itemdat.cpp:54 Source/itemdat.cpp:172
 msgid "Short Sword"
-msgstr "Spada Corta"
+msgstr ""
 
 #: Source/itemdat.cpp:55 Source/itemdat.cpp:124
 msgid "Buckler"
-msgstr "Brocchiero"
+msgstr ""
 
 #: Source/itemdat.cpp:56 Source/itemdat.cpp:192 Source/itemdat.cpp:193
 msgid "Club"
-msgstr "Clava"
+msgstr ""
 
 #: Source/itemdat.cpp:57 Source/itemdat.cpp:196
 msgid "Short Bow"
-msgstr "Arco Corto"
+msgstr ""
 
 #: Source/itemdat.cpp:58
 msgid "Short Staff of Mana"
-msgstr "Verga Corta del Mana"
+msgstr ""
 
 #: Source/itemdat.cpp:59
 msgid "Cleaver"
-msgstr "Mannaia"
+msgstr ""
 
 #: Source/itemdat.cpp:60 Source/itemdat.cpp:435
 msgid "The Undead Crown"
-msgstr "Corona Immortale"
+msgstr ""
 
 #: Source/itemdat.cpp:61 Source/itemdat.cpp:436
 msgid "Empyrean Band"
-msgstr "Banda Empirea"
+msgstr ""
 
 #: Source/itemdat.cpp:62
 msgid "Magic Rock"
-msgstr "Gemma Magica"
+msgstr ""
 
 #: Source/itemdat.cpp:63 Source/itemdat.cpp:437
 msgid "Optic Amulet"
-msgstr "Amuleto Ottico"
+msgstr ""
 
 #: Source/itemdat.cpp:64 Source/itemdat.cpp:438
 msgid "Ring of Truth"
-msgstr "Anello della Verità"
+msgstr ""
 
 #: Source/itemdat.cpp:65
 msgid "Tavern Sign"
-msgstr "L'Insegna"
+msgstr ""
 
 #: Source/itemdat.cpp:66 Source/itemdat.cpp:439
 msgid "Harlequin Crest"
-msgstr "Elmo Arlecchino"
+msgstr ""
 
 #: Source/itemdat.cpp:67 Source/itemdat.cpp:440
 msgid "Veil of Steel"
-msgstr "Velo d'Acciaio"
+msgstr ""
 
 #: Source/itemdat.cpp:68
 msgid "Golden Elixir"
-msgstr "Elisir Dorato"
+msgstr ""
 
 #: Source/itemdat.cpp:69 Source/quests.cpp:58
 msgid "Anvil of Fury"
-msgstr "Incudine del Furore"
+msgstr ""
 
 #: Source/itemdat.cpp:70 Source/quests.cpp:49
 msgid "Black Mushroom"
-msgstr "Fungo Nero"
+msgstr ""
 
 #: Source/itemdat.cpp:71
 msgid "Brain"
-msgstr "Cervello"
+msgstr ""
 
 #: Source/itemdat.cpp:72
 msgid "Fungal Tome"
-msgstr "Tomo Fungino"
+msgstr ""
 
 #: Source/itemdat.cpp:73
 msgid "Spectral Elixir"
-msgstr "Elisir Spettrale"
+msgstr ""
 
 #: Source/itemdat.cpp:74
 msgid "Blood Stone"
-msgstr "Pietra di Sangue"
+msgstr ""
 
 #: Source/itemdat.cpp:75
 msgid "Cathedral Map"
-msgstr "Mappa Cattedrale"
+msgstr ""
 
 #: Source/itemdat.cpp:76
 msgid "Heart"
-msgstr "Cuore"
+msgstr ""
 
 #: Source/itemdat.cpp:77 Source/itemdat.cpp:130
 msgid "Potion of Healing"
-msgstr "Pozione di Guarigione"
+msgstr ""
 
 #: Source/itemdat.cpp:78 Source/itemdat.cpp:132
 msgid "Potion of Mana"
-msgstr "Pozione del Mana"
+msgstr ""
 
 #: Source/itemdat.cpp:79 Source/itemdat.cpp:147
 msgid "Scroll of Identify"
-msgstr "Pergamena dell'Identità"
+msgstr ""
 
 #: Source/itemdat.cpp:80 Source/itemdat.cpp:151
 msgid "Scroll of Town Portal"
-msgstr "Pergamena del Portale"
+msgstr ""
 
 #: Source/itemdat.cpp:81 Source/itemdat.cpp:441
 msgid "Arkaine's Valor"
-msgstr "Valor di Arkaine"
+msgstr ""
 
 #: Source/itemdat.cpp:82 Source/itemdat.cpp:131
 msgid "Potion of Full Healing"
-msgstr "Pozione di Guarigione Totale"
+msgstr ""
 
 #: Source/itemdat.cpp:83 Source/itemdat.cpp:133
 msgid "Potion of Full Mana"
-msgstr "Pozione del Mana Totale"
+msgstr ""
 
 #: Source/itemdat.cpp:84 Source/itemdat.cpp:442
 msgid "Griswold's Edge"
-msgstr "Lama di Griswold"
+msgstr ""
 
 #: Source/itemdat.cpp:85 Source/itemdat.cpp:443
 msgid "Bovine Plate"
-msgstr "Armatura di Bovino"
+msgstr ""
 
 #: Source/itemdat.cpp:86
 msgid "Staff of Lazarus"
-msgstr "Verga di Lazarus"
+msgstr ""
 
 #: Source/itemdat.cpp:87 Source/itemdat.cpp:148
 msgid "Scroll of Resurrect"
-msgstr "Pergamena di Resurrezione"
+msgstr ""
 
 #: Source/itemdat.cpp:88 Source/itemdat.cpp:136 Source/items.cpp:180
 msgid "Blacksmith Oil"
-msgstr "Unguento da Fabbro"
+msgstr ""
 
 #: Source/itemdat.cpp:89 Source/itemdat.cpp:204
 msgid "Short Staff"
-msgstr "Verga Corta"
+msgstr ""
 
 #: Source/itemdat.cpp:90 Source/itemdat.cpp:172 Source/itemdat.cpp:173
 #: Source/itemdat.cpp:174 Source/itemdat.cpp:175 Source/itemdat.cpp:178
 #: Source/itemdat.cpp:179 Source/itemdat.cpp:180 Source/itemdat.cpp:181
 #: Source/itemdat.cpp:182
 msgid "Sword"
-msgstr "Spada"
+msgstr ""
 
 #: Source/itemdat.cpp:91 Source/itemdat.cpp:171
 msgid "Dagger"
-msgstr "Daga"
+msgstr ""
 
 #: Source/itemdat.cpp:92
 msgid "Rune Bomb"
-msgstr "Runa Esplosiva"
+msgstr ""
 
 #: Source/itemdat.cpp:93
 msgid "Theodore"
-msgstr "Theodore"
+msgstr ""
 
 #: Source/itemdat.cpp:94
 msgid "Auric Amulet"
-msgstr "Amuleto Aurico"
+msgstr ""
 
 #: Source/itemdat.cpp:95
 msgid "Torn Note 1"
@@ -2551,1620 +2551,1620 @@ msgstr "Pergamena Ricostruita"
 
 #: Source/itemdat.cpp:99
 msgid "Brown Suit"
-msgstr "Abito Marrone"
+msgstr ""
 
 #: Source/itemdat.cpp:100
 msgid "Grey Suit"
-msgstr "Abito Grigio"
+msgstr ""
 
 #: Source/itemdat.cpp:101 Source/itemdat.cpp:102
 msgid "Cap"
-msgstr "Cappuccio"
+msgstr ""
 
 #: Source/itemdat.cpp:102
 msgid "Skull Cap"
-msgstr "Copricapo"
+msgstr ""
 
 #: Source/itemdat.cpp:103 Source/itemdat.cpp:104 Source/itemdat.cpp:106
 msgid "Helm"
-msgstr "Elmo"
+msgstr ""
 
 #: Source/itemdat.cpp:104
 msgid "Full Helm"
-msgstr "Elmo Intero"
+msgstr ""
 
 #: Source/itemdat.cpp:105
 msgid "Crown"
-msgstr "Corona"
+msgstr ""
 
 #: Source/itemdat.cpp:106
 msgid "Great Helm"
-msgstr "Elmo Superiore"
+msgstr ""
 
 #: Source/itemdat.cpp:107
 msgid "Cape"
-msgstr "Cappa"
+msgstr ""
 
 #: Source/itemdat.cpp:108
 msgid "Rags"
-msgstr "Vestito"
+msgstr ""
 
 #: Source/itemdat.cpp:109
 msgid "Cloak"
-msgstr "Mantello"
+msgstr ""
 
 #: Source/itemdat.cpp:110
 msgid "Robe"
-msgstr "Tunica"
+msgstr ""
 
 #: Source/itemdat.cpp:111
 msgid "Quilted Armor"
-msgstr "Gambesone"
+msgstr ""
 
 #: Source/itemdat.cpp:111 Source/itemdat.cpp:112 Source/itemdat.cpp:113
 #: Source/itemdat.cpp:114 Source/objects.cpp:4928
 msgid "Armor"
-msgstr "Armatura"
+msgstr ""
 
 #: Source/itemdat.cpp:112
 msgid "Leather Armor"
-msgstr "Armatura di Cuoio"
+msgstr ""
 
 #: Source/itemdat.cpp:113
 msgid "Hard Leather Armor"
-msgstr "Armatura di Cuoio Duro"
+msgstr ""
 
 #: Source/itemdat.cpp:114
 msgid "Studded Leather Armor"
-msgstr "Armatura di Cuoio Borchiata"
+msgstr ""
 
 #: Source/itemdat.cpp:115
 msgid "Ring Mail"
-msgstr "Corazza ad Anelli"
+msgstr ""
 
 #: Source/itemdat.cpp:115 Source/itemdat.cpp:116 Source/itemdat.cpp:117
 #: Source/itemdat.cpp:119
 msgid "Mail"
-msgstr "Corazza"
+msgstr ""
 
 #: Source/itemdat.cpp:116
 msgid "Chain Mail"
-msgstr "Cotta di Maglia"
+msgstr ""
 
 #: Source/itemdat.cpp:117
 msgid "Scale Mail"
-msgstr "Corazza a Scaglie"
+msgstr ""
 
 #: Source/itemdat.cpp:118
 msgid "Breast Plate"
-msgstr "Pettorale"
+msgstr ""
 
 #: Source/itemdat.cpp:118 Source/itemdat.cpp:120 Source/itemdat.cpp:121
 #: Source/itemdat.cpp:122 Source/itemdat.cpp:123
 msgid "Plate"
-msgstr "Busto"
+msgstr ""
 
 #: Source/itemdat.cpp:119
 msgid "Splint Mail"
-msgstr "Corazza Lamellare"
+msgstr ""
 
 #: Source/itemdat.cpp:120
 msgid "Plate Mail"
-msgstr "Corazza a Piastre"
+msgstr ""
 
 #: Source/itemdat.cpp:121
 msgid "Field Plate"
-msgstr "Corazza da Campo"
+msgstr ""
 
 #: Source/itemdat.cpp:122
 msgid "Gothic Plate"
-msgstr "Armatura Gotica"
+msgstr ""
 
 #: Source/itemdat.cpp:123
 msgid "Full Plate Mail"
-msgstr "Corazza Intera a Piastre"
+msgstr ""
 
 #: Source/itemdat.cpp:124 Source/itemdat.cpp:125 Source/itemdat.cpp:126
 #: Source/itemdat.cpp:127 Source/itemdat.cpp:128 Source/itemdat.cpp:129
 msgid "Shield"
-msgstr "Scudo"
+msgstr ""
 
 #: Source/itemdat.cpp:125
 msgid "Small Shield"
-msgstr "Scudo Piccolo"
+msgstr ""
 
 #: Source/itemdat.cpp:126
 msgid "Large Shield"
-msgstr "Scudo Grande"
+msgstr ""
 
 #: Source/itemdat.cpp:127
 msgid "Kite Shield"
-msgstr "Scudo a Goccia"
+msgstr ""
 
 #: Source/itemdat.cpp:128
 msgid "Tower Shield"
-msgstr "Scudo a Torre"
+msgstr ""
 
 #: Source/itemdat.cpp:129
 msgid "Gothic Shield"
-msgstr "Scudo Gotico"
+msgstr ""
 
 #: Source/itemdat.cpp:134
 msgid "Potion of Rejuvenation"
-msgstr "Pozione di Giovinezza"
+msgstr ""
 
 #: Source/itemdat.cpp:135
 msgid "Potion of Full Rejuvenation"
-msgstr "Gran Pozione di Giovinezza"
+msgstr ""
 
 #: Source/itemdat.cpp:137 Source/items.cpp:175
 msgid "Oil of Accuracy"
-msgstr "Unguento di Precisione"
+msgstr ""
 
 #: Source/itemdat.cpp:138 Source/items.cpp:177
 msgid "Oil of Sharpness"
-msgstr "Unguento d'Acume"
+msgstr ""
 
 #: Source/itemdat.cpp:139
 msgid "Oil"
-msgstr "Unguento"
+msgstr ""
 
 #: Source/itemdat.cpp:140
 msgid "Elixir of Strength"
-msgstr "Elisir di Forza"
+msgstr ""
 
 #: Source/itemdat.cpp:141
 msgid "Elixir of Magic"
-msgstr "Elisir di Magia"
+msgstr ""
 
 #: Source/itemdat.cpp:142
 msgid "Elixir of Dexterity"
-msgstr "Elisir di Destrezza"
+msgstr ""
 
 #: Source/itemdat.cpp:143
 msgid "Elixir of Vitality"
-msgstr "Elisir di Vitalità"
+msgstr ""
 
 #: Source/itemdat.cpp:144
 msgid "Scroll of Healing"
-msgstr "Pergamena di Guarigione"
+msgstr ""
 
 #: Source/itemdat.cpp:145
 msgid "Scroll of Search"
-msgstr "Pergamena della Ricerca"
+msgstr ""
 
 #: Source/itemdat.cpp:146
 msgid "Scroll of Lightning"
-msgstr "Pergamena del Fulmine"
+msgstr ""
 
 #: Source/itemdat.cpp:149
 msgid "Scroll of Fire Wall"
-msgstr "Pergamena Muro di Fuoco"
+msgstr ""
 
 #: Source/itemdat.cpp:150
 msgid "Scroll of Inferno"
-msgstr "Pergamena Inferno"
+msgstr ""
 
 #: Source/itemdat.cpp:152
 msgid "Scroll of Flash"
-msgstr "Pergamena del Lampo"
+msgstr ""
 
 #: Source/itemdat.cpp:153
 msgid "Scroll of Infravision"
-msgstr "Pergamena di Infravisione"
+msgstr ""
 
 #: Source/itemdat.cpp:154
 msgid "Scroll of Phasing"
-msgstr "Pergamena della Fase"
+msgstr ""
 
 #: Source/itemdat.cpp:155
 msgid "Scroll of Mana Shield"
-msgstr "Pergamena Scudo Magico"
+msgstr ""
 
 #: Source/itemdat.cpp:156
 msgid "Scroll of Flame Wave"
-msgstr "Pergamena Ondata di Fuoco"
+msgstr ""
 
 #: Source/itemdat.cpp:157
 msgid "Scroll of Fireball"
-msgstr "Pergamena Sfera Infuocata"
+msgstr ""
 
 #: Source/itemdat.cpp:158
 msgid "Scroll of Stone Curse"
-msgstr "Pergamena Pietra Malefica"
+msgstr ""
 
 #: Source/itemdat.cpp:159
 msgid "Scroll of Chain Lightning"
-msgstr "Pergamena della Tempesta"
+msgstr ""
 
 #: Source/itemdat.cpp:160
 msgid "Scroll of Guardian"
-msgstr "Pergamena del Guardiano"
+msgstr ""
 
 #: Source/itemdat.cpp:162
 msgid "Scroll of Nova"
-msgstr "Pergamena Nova"
+msgstr ""
 
 #: Source/itemdat.cpp:163
 msgid "Scroll of Golem"
-msgstr "Pergamena del Golem"
+msgstr ""
 
 #: Source/itemdat.cpp:165
 msgid "Scroll of Teleport"
-msgstr "Pergamena Teletrasporto"
+msgstr ""
 
 #: Source/itemdat.cpp:166
 msgid "Scroll of Apocalypse"
-msgstr "Pergamena Apocalisse"
+msgstr ""
 
 #: Source/itemdat.cpp:167 Source/itemdat.cpp:168 Source/itemdat.cpp:169
 #: Source/itemdat.cpp:170
 msgid "Book of "
-msgstr "Libro di "
+msgstr ""
 
 #: Source/itemdat.cpp:173
 msgid "Falchion"
-msgstr "Falcione"
+msgstr ""
 
 #: Source/itemdat.cpp:174
 msgid "Scimitar"
-msgstr "Scimitarra"
+msgstr ""
 
 #: Source/itemdat.cpp:175
 msgid "Claymore"
-msgstr "Claymore"
+msgstr ""
 
 #: Source/itemdat.cpp:176
 msgid "Blade"
-msgstr "Lama"
+msgstr ""
 
 #: Source/itemdat.cpp:177
 msgid "Sabre"
-msgstr "Sciabola"
+msgstr ""
 
 #: Source/itemdat.cpp:178
 msgid "Long Sword"
-msgstr "Spada Lunga"
+msgstr ""
 
 #: Source/itemdat.cpp:179
 msgid "Broad Sword"
-msgstr "Spada Larga"
+msgstr ""
 
 #: Source/itemdat.cpp:180
 msgid "Bastard Sword"
-msgstr "Spada Bastarda"
+msgstr ""
 
 #: Source/itemdat.cpp:181
 msgid "Two-Handed Sword"
-msgstr "Spada a Due Mani"
+msgstr ""
 
 #: Source/itemdat.cpp:182
 msgid "Great Sword"
-msgstr "Spada Superiore"
+msgstr ""
 
 #: Source/itemdat.cpp:183
 msgid "Small Axe"
-msgstr "Ascia Piccola"
+msgstr ""
 
 #: Source/itemdat.cpp:183 Source/itemdat.cpp:184 Source/itemdat.cpp:185
 #: Source/itemdat.cpp:186 Source/itemdat.cpp:187 Source/itemdat.cpp:188
 msgid "Axe"
-msgstr "Ascia"
+msgstr ""
 
 #: Source/itemdat.cpp:185
 msgid "Large Axe"
-msgstr "Ascia Grande"
+msgstr ""
 
 #: Source/itemdat.cpp:186
 msgid "Broad Axe"
-msgstr "Ascia Larga"
+msgstr ""
 
 #: Source/itemdat.cpp:187
 msgid "Battle Axe"
-msgstr "Ascia da Battaglia"
+msgstr ""
 
 #: Source/itemdat.cpp:188
 msgid "Great Axe"
-msgstr "Ascia Superiore"
+msgstr ""
 
 #: Source/itemdat.cpp:189 Source/itemdat.cpp:190
 msgid "Mace"
-msgstr "Mazza"
+msgstr ""
 
 #: Source/itemdat.cpp:190
 msgid "Morning Star"
-msgstr "Mazza Chiodata"
+msgstr ""
 
 #: Source/itemdat.cpp:191
 msgid "War Hammer"
-msgstr "Martello d'Arme"
+msgstr ""
 
 #: Source/itemdat.cpp:191
 msgid "Hammer"
-msgstr "Martello"
+msgstr ""
 
 #: Source/itemdat.cpp:192
 msgid "Spiked Club"
-msgstr "Mazza Chiodata"
+msgstr ""
 
 #: Source/itemdat.cpp:194
 msgid "Flail"
-msgstr "Flagello"
+msgstr ""
 
 #: Source/itemdat.cpp:195
 msgid "Maul"
-msgstr "Maglio"
+msgstr ""
 
 #: Source/itemdat.cpp:196 Source/itemdat.cpp:197 Source/itemdat.cpp:198
 #: Source/itemdat.cpp:199 Source/itemdat.cpp:200 Source/itemdat.cpp:201
 #: Source/itemdat.cpp:202 Source/itemdat.cpp:203
 msgid "Bow"
-msgstr "Arco"
+msgstr ""
 
 #: Source/itemdat.cpp:197
 msgid "Hunter's Bow"
-msgstr "Arco da Caccia"
+msgstr ""
 
 #: Source/itemdat.cpp:198
 msgid "Long Bow"
-msgstr "Arco Lungo"
+msgstr ""
 
 #: Source/itemdat.cpp:199
 msgid "Composite Bow"
-msgstr "Arco Composito"
+msgstr ""
 
 #: Source/itemdat.cpp:200
 msgid "Short Battle Bow"
-msgstr "Arco Piccolo da Battaglia"
+msgstr ""
 
 #: Source/itemdat.cpp:201
 msgid "Long Battle Bow"
-msgstr "Arco Lungo da Battaglia"
+msgstr ""
 
 #: Source/itemdat.cpp:202
 msgid "Short War Bow"
-msgstr "Arco Corto da Guerra"
+msgstr ""
 
 #: Source/itemdat.cpp:203
 msgid "Long War Bow"
-msgstr "Arco Lungo da Guerra"
+msgstr ""
 
 #: Source/itemdat.cpp:204 Source/itemdat.cpp:205 Source/itemdat.cpp:206
 #: Source/itemdat.cpp:207 Source/itemdat.cpp:208
 #: Source/panels/spell_list.cpp:183
 msgid "Staff"
-msgstr "Verga"
+msgstr ""
 
 #: Source/itemdat.cpp:205
 msgid "Long Staff"
-msgstr "Verga Lunga"
+msgstr ""
 
 #: Source/itemdat.cpp:206
 msgid "Composite Staff"
-msgstr "Verga Composita"
+msgstr ""
 
 #: Source/itemdat.cpp:207
 msgid "Quarter Staff"
-msgstr "Picca"
+msgstr ""
 
 #: Source/itemdat.cpp:208
 msgid "War Staff"
-msgstr "Verga da Guerra"
+msgstr ""
 
 #: Source/itemdat.cpp:209 Source/itemdat.cpp:210 Source/itemdat.cpp:211
 msgid "Ring"
-msgstr "Anello"
+msgstr ""
 
 #: Source/itemdat.cpp:212 Source/itemdat.cpp:213
 msgid "Amulet"
-msgstr "Amuleto"
+msgstr ""
 
 #: Source/itemdat.cpp:214
 msgid "Rune of Fire"
-msgstr "Runa di Fuoco"
+msgstr ""
 
 #: Source/itemdat.cpp:214 Source/itemdat.cpp:215 Source/itemdat.cpp:216
 #: Source/itemdat.cpp:217 Source/itemdat.cpp:218
 msgid "Rune"
-msgstr "Runa"
+msgstr ""
 
 #: Source/itemdat.cpp:215
 msgid "Rune of Lightning"
-msgstr "Runa del Fulmine"
+msgstr ""
 
 #: Source/itemdat.cpp:216
 msgid "Greater Rune of Fire"
-msgstr "Runa Maggiore del Fuoco"
+msgstr ""
 
 #: Source/itemdat.cpp:217
 msgid "Greater Rune of Lightning"
-msgstr "Runa Maggiore del Fulmine"
+msgstr ""
 
 #: Source/itemdat.cpp:218
 msgid "Rune of Stone"
-msgstr "Runa di Pietra"
+msgstr ""
 
 #: Source/itemdat.cpp:219
 msgid "Short Staff of Charged Bolt"
-msgstr "Verga Corta del Fulmine"
+msgstr ""
 
 #: Source/itemdat.cpp:220
 msgid "Arena Potion"
-msgstr "Pozione Arena"
+msgstr ""
 
 #. TRANSLATORS: Item prefix section.
 #: Source/itemdat.cpp:230
 msgid "Tin"
-msgstr "Stagno"
+msgstr ""
 
 #: Source/itemdat.cpp:231
 msgid "Brass"
-msgstr "Rame"
+msgstr ""
 
 #: Source/itemdat.cpp:232
 msgid "Bronze"
-msgstr "Bronzo"
+msgstr ""
 
 #: Source/itemdat.cpp:233
 msgid "Iron"
-msgstr "Ferro"
+msgstr ""
 
 #: Source/itemdat.cpp:234
 msgid "Steel"
-msgstr "Acciaio"
+msgstr ""
 
 #: Source/itemdat.cpp:235
 msgid "Silver"
-msgstr "Argento"
+msgstr ""
 
 #: Source/itemdat.cpp:237
 msgid "Platinum"
-msgstr "Platino"
+msgstr ""
 
 #: Source/itemdat.cpp:238
 msgid "Mithril"
-msgstr "Mithril"
+msgstr ""
 
 #: Source/itemdat.cpp:239
 msgid "Meteoric"
-msgstr "Meteorico"
+msgstr ""
 
 #: Source/itemdat.cpp:240 Source/objects.cpp:123
 msgid "Weird"
-msgstr "Buffo"
+msgstr ""
 
 #: Source/itemdat.cpp:241
 msgid "Strange"
-msgstr "Strano"
+msgstr ""
 
 #: Source/itemdat.cpp:242
 msgid "Useless"
-msgstr "Inutile"
+msgstr ""
 
 #: Source/itemdat.cpp:243
 msgid "Bent"
-msgstr "Ricurvo"
+msgstr ""
 
 #: Source/itemdat.cpp:244
 msgid "Weak"
-msgstr "Debole"
+msgstr ""
 
 #: Source/itemdat.cpp:245
 msgid "Jagged"
-msgstr "Dentato"
+msgstr ""
 
 #: Source/itemdat.cpp:246
 msgid "Deadly"
-msgstr "Letale"
+msgstr ""
 
 #: Source/itemdat.cpp:247
 msgid "Heavy"
-msgstr "Grave"
+msgstr ""
 
 #: Source/itemdat.cpp:248
 msgid "Vicious"
-msgstr "Violento"
+msgstr ""
 
 #: Source/itemdat.cpp:249
 msgid "Brutal"
-msgstr "Brutale"
+msgstr ""
 
 #: Source/itemdat.cpp:250
 msgid "Massive"
-msgstr "Massivo"
+msgstr ""
 
 #: Source/itemdat.cpp:251
 msgid "Savage"
-msgstr "Ferino"
+msgstr ""
 
 #: Source/itemdat.cpp:252
 msgid "Ruthless"
-msgstr "Atroce"
+msgstr ""
 
 #: Source/itemdat.cpp:253
 msgid "Merciless"
-msgstr "Spietato"
+msgstr ""
 
 #: Source/itemdat.cpp:254
 msgid "Clumsy"
-msgstr "Goffo"
+msgstr ""
 
 #: Source/itemdat.cpp:255
 msgid "Dull"
-msgstr "Cupo"
+msgstr ""
 
 #: Source/itemdat.cpp:256
 msgid "Sharp"
-msgstr "Affilato"
+msgstr ""
 
 #: Source/itemdat.cpp:257 Source/itemdat.cpp:267
 msgid "Fine"
-msgstr "Fine"
+msgstr ""
 
 #: Source/itemdat.cpp:258
 msgid "Warrior's"
-msgstr "del Guerriero"
+msgstr ""
 
 #: Source/itemdat.cpp:259
 msgid "Soldier's"
-msgstr "del Soldato"
+msgstr ""
 
 #: Source/itemdat.cpp:260
 msgid "Lord's"
-msgstr "del Signore"
+msgstr ""
 
 #: Source/itemdat.cpp:261
 msgid "Knight's"
-msgstr "del Cavaliere"
+msgstr ""
 
 #: Source/itemdat.cpp:262
 msgid "Master's"
-msgstr "del Maestro"
+msgstr ""
 
 #: Source/itemdat.cpp:263
 msgid "Champion's"
-msgstr "del Campione"
+msgstr ""
 
 #: Source/itemdat.cpp:264
 msgid "King's"
-msgstr "del Re"
+msgstr ""
 
 #: Source/itemdat.cpp:265
 msgid "Vulnerable"
-msgstr "Inerme"
+msgstr ""
 
 #: Source/itemdat.cpp:266
 msgid "Rusted"
-msgstr "Arrugginito"
+msgstr ""
 
 #: Source/itemdat.cpp:268
 msgid "Strong"
-msgstr "Forte"
+msgstr ""
 
 #: Source/itemdat.cpp:269
 msgid "Grand"
-msgstr "Prode"
+msgstr ""
 
 #: Source/itemdat.cpp:270
 msgid "Valiant"
-msgstr "Audace"
+msgstr ""
 
 #: Source/itemdat.cpp:271
 msgid "Glorious"
-msgstr "Glorioso"
+msgstr ""
 
 #: Source/itemdat.cpp:272
 msgid "Blessed"
-msgstr "Santo"
+msgstr ""
 
 #: Source/itemdat.cpp:273
 msgid "Saintly"
-msgstr "Solenne"
+msgstr ""
 
 #: Source/itemdat.cpp:274
 msgid "Awesome"
-msgstr "Eccezionale"
+msgstr ""
 
 #: Source/itemdat.cpp:275 Source/objects.cpp:135
 msgid "Holy"
-msgstr "Sacro"
+msgstr ""
 
 #: Source/itemdat.cpp:276
 msgid "Godly"
-msgstr "Leale"
+msgstr ""
 
 #: Source/itemdat.cpp:277
 msgid "Red"
-msgstr "Rosso"
+msgstr ""
 
 #: Source/itemdat.cpp:278 Source/itemdat.cpp:279
 msgid "Crimson"
-msgstr "Cremisi"
+msgstr ""
 
 #: Source/itemdat.cpp:280
 msgid "Garnet"
-msgstr "Granato"
+msgstr ""
 
 #: Source/itemdat.cpp:281
 msgid "Ruby"
-msgstr "Rubino"
+msgstr ""
 
 #: Source/itemdat.cpp:282
 msgid "Blue"
-msgstr "Blu"
+msgstr ""
 
 #: Source/itemdat.cpp:283
 msgid "Azure"
-msgstr "Azzurrite"
+msgstr ""
 
 #: Source/itemdat.cpp:284
 msgid "Lapis"
-msgstr "Lapislazzuli"
+msgstr ""
 
 #: Source/itemdat.cpp:285
 msgid "Cobalt"
-msgstr "Cobalto"
+msgstr ""
 
 #: Source/itemdat.cpp:286
 msgid "Sapphire"
-msgstr "Zaffiro"
+msgstr ""
 
 #: Source/itemdat.cpp:287
 msgid "White"
-msgstr "Bianco"
+msgstr ""
 
 #: Source/itemdat.cpp:288
 msgid "Pearl"
-msgstr "Perla"
+msgstr ""
 
 #: Source/itemdat.cpp:289
 msgid "Ivory"
-msgstr "Avorio"
+msgstr ""
 
 #: Source/itemdat.cpp:290
 msgid "Crystal"
-msgstr "Cristallo"
+msgstr ""
 
 #: Source/itemdat.cpp:291
 msgid "Diamond"
-msgstr "Diamante"
+msgstr ""
 
 #: Source/itemdat.cpp:292
 msgid "Topaz"
-msgstr "Topazio"
+msgstr ""
 
 #: Source/itemdat.cpp:293
 msgid "Amber"
-msgstr "Ambra"
+msgstr ""
 
 #: Source/itemdat.cpp:294
 msgid "Jade"
-msgstr "Giada"
+msgstr ""
 
 #: Source/itemdat.cpp:295
 msgid "Obsidian"
-msgstr "Ossidiana"
+msgstr ""
 
 #: Source/itemdat.cpp:296
 msgid "Emerald"
-msgstr "Smeraldo"
+msgstr ""
 
 #: Source/itemdat.cpp:297
 msgid "Hyena's"
-msgstr "di Iena"
+msgstr ""
 
 #: Source/itemdat.cpp:298
 msgid "Frog's"
-msgstr "di Rospo"
+msgstr ""
 
 #: Source/itemdat.cpp:299
 msgid "Spider's"
-msgstr "di Ragno"
+msgstr ""
 
 #: Source/itemdat.cpp:300
 msgid "Raven's"
-msgstr "di Corvo"
+msgstr ""
 
 #: Source/itemdat.cpp:301
 msgid "Snake's"
-msgstr "di Serpe"
+msgstr ""
 
 #: Source/itemdat.cpp:302
 msgid "Serpent's"
-msgstr "di Serpente"
+msgstr ""
 
 #: Source/itemdat.cpp:303
 msgid "Drake's"
-msgstr "di Drago"
+msgstr ""
 
 #: Source/itemdat.cpp:304
 msgid "Dragon's"
-msgstr "di Dragone"
+msgstr ""
 
 #: Source/itemdat.cpp:305
 msgid "Wyrm's"
-msgstr "di Verme"
+msgstr ""
 
 #: Source/itemdat.cpp:306
 msgid "Hydra's"
-msgstr "di Idra"
+msgstr ""
 
 #: Source/itemdat.cpp:307
 msgid "Angel's"
-msgstr "d'Angelo"
+msgstr ""
 
 #: Source/itemdat.cpp:308
 msgid "Arch-Angel's"
-msgstr "d'Arcangelo"
+msgstr ""
 
 #: Source/itemdat.cpp:309
 msgid "Plentiful"
-msgstr "Cospicuo"
+msgstr ""
 
 #: Source/itemdat.cpp:310
 msgid "Bountiful"
-msgstr "Munifico"
+msgstr ""
 
 #: Source/itemdat.cpp:311
 msgid "Flaming"
-msgstr "Fiamma"
+msgstr ""
 
 #: Source/itemdat.cpp:312
 msgid "Lightning"
-msgstr "Fulmine"
+msgstr ""
 
 #: Source/itemdat.cpp:313
 msgid "Jester's"
-msgstr "di Jester"
+msgstr ""
 
 #: Source/itemdat.cpp:314
 msgid "Crystalline"
-msgstr "Cristallino"
+msgstr ""
 
 #. TRANSLATORS: Item prefix section end.
 #: Source/itemdat.cpp:316
 msgid "Doppelganger's"
-msgstr "del Sosia"
+msgstr ""
 
 #. TRANSLATORS: Item suffix section. All items will have a word binding word. (Format: {:s} of {:s} - e.g. Rags of Valor)
 #: Source/itemdat.cpp:326
 msgid "quality"
-msgstr "qualità"
+msgstr ""
 
 #: Source/itemdat.cpp:327
 msgid "maiming"
-msgstr "reciso"
+msgstr ""
 
 #: Source/itemdat.cpp:328
 msgid "slaying"
-msgstr "delitto"
+msgstr ""
 
 #: Source/itemdat.cpp:329
 msgid "gore"
-msgstr "sangue"
+msgstr ""
 
 #: Source/itemdat.cpp:330
 msgid "carnage"
-msgstr "eccidio"
+msgstr ""
 
 #: Source/itemdat.cpp:331
 msgid "slaughter"
-msgstr "macello"
+msgstr ""
 
 #: Source/itemdat.cpp:332
 msgid "pain"
-msgstr "male"
+msgstr ""
 
 #: Source/itemdat.cpp:333
 msgid "tears"
-msgstr "lacrime"
+msgstr ""
 
 #: Source/itemdat.cpp:334
 msgid "health"
-msgstr "salute"
+msgstr ""
 
 #: Source/itemdat.cpp:335
 msgid "protection"
-msgstr "protezione"
+msgstr ""
 
 #: Source/itemdat.cpp:336
 msgid "absorption"
-msgstr "assorbimento"
+msgstr ""
 
 #: Source/itemdat.cpp:337
 msgid "deflection"
-msgstr "deviazione"
+msgstr ""
 
 #: Source/itemdat.cpp:338
 msgid "osmosis"
-msgstr "osmosi"
+msgstr ""
 
 #: Source/itemdat.cpp:339
 msgid "frailty"
-msgstr "fragilità"
+msgstr ""
 
 #: Source/itemdat.cpp:340
 msgid "weakness"
-msgstr "debolezza"
+msgstr ""
 
 #: Source/itemdat.cpp:341
 msgid "strength"
-msgstr "forza"
+msgstr ""
 
 #: Source/itemdat.cpp:342
 msgid "might"
-msgstr "potenza"
+msgstr ""
 
 #: Source/itemdat.cpp:343
 msgid "power"
-msgstr "potere"
+msgstr ""
 
 #: Source/itemdat.cpp:344
 msgid "giants"
-msgstr "giganti"
+msgstr ""
 
 #: Source/itemdat.cpp:345
 msgid "titans"
-msgstr "titani"
+msgstr ""
 
 #: Source/itemdat.cpp:346
 msgid "paralysis"
-msgstr "paralisi"
+msgstr ""
 
 #: Source/itemdat.cpp:347
 msgid "atrophy"
-msgstr "atrofia"
+msgstr ""
 
 #: Source/itemdat.cpp:348
 msgid "dexterity"
-msgstr "destrezza"
+msgstr ""
 
 #: Source/itemdat.cpp:349
 msgid "skill"
-msgstr "abilità"
+msgstr ""
 
 #: Source/itemdat.cpp:350
 msgid "accuracy"
-msgstr "precisione"
+msgstr ""
 
 #: Source/itemdat.cpp:351
 msgid "precision"
-msgstr "precisione"
+msgstr ""
 
 #: Source/itemdat.cpp:352
 msgid "perfection"
-msgstr "perfezione"
+msgstr ""
 
 #: Source/itemdat.cpp:353
 msgid "the fool"
-msgstr "stolto"
+msgstr ""
 
 #: Source/itemdat.cpp:354
 msgid "dyslexia"
-msgstr "dislessia"
+msgstr ""
 
 #: Source/itemdat.cpp:355
 msgid "magic"
-msgstr "magia"
+msgstr ""
 
 #: Source/itemdat.cpp:356
 msgid "the mind"
-msgstr "mente"
+msgstr ""
 
 #: Source/itemdat.cpp:357
 msgid "brilliance"
-msgstr "splendore"
+msgstr ""
 
 #: Source/itemdat.cpp:358
 msgid "sorcery"
-msgstr "sortilegio"
+msgstr ""
 
 #: Source/itemdat.cpp:359
 msgid "wizardry"
-msgstr "magia"
+msgstr ""
 
 #: Source/itemdat.cpp:360
 msgid "illness"
-msgstr "malattia"
+msgstr ""
 
 #: Source/itemdat.cpp:361
 msgid "disease"
-msgstr "morbo"
+msgstr ""
 
 #: Source/itemdat.cpp:362
 msgid "vitality"
-msgstr "vitalità"
+msgstr ""
 
 #: Source/itemdat.cpp:363
 msgid "zest"
-msgstr "gusto"
+msgstr ""
 
 #: Source/itemdat.cpp:364
 msgid "vim"
-msgstr "energia"
+msgstr ""
 
 #: Source/itemdat.cpp:365
 msgid "vigor"
-msgstr "vigore"
+msgstr ""
 
 #: Source/itemdat.cpp:366
 msgid "life"
-msgstr "vita"
+msgstr ""
 
 #: Source/itemdat.cpp:367
 msgid "trouble"
-msgstr "problema"
+msgstr ""
 
 #: Source/itemdat.cpp:368
 msgid "the pit"
-msgstr "fossa"
+msgstr ""
 
 #: Source/itemdat.cpp:369
 msgid "the sky"
-msgstr "cielo"
+msgstr ""
 
 #: Source/itemdat.cpp:370
 msgid "the moon"
-msgstr "luna"
+msgstr ""
 
 #: Source/itemdat.cpp:371
 msgid "the stars"
-msgstr "stelle"
+msgstr ""
 
 #: Source/itemdat.cpp:372
 msgid "the heavens"
-msgstr "paradiso"
+msgstr ""
 
 #: Source/itemdat.cpp:373
 msgid "the zodiac"
-msgstr "zodiaco"
+msgstr ""
 
 #: Source/itemdat.cpp:374
 msgid "the vulture"
-msgstr "avvoltoio"
+msgstr ""
 
 #: Source/itemdat.cpp:375
 msgid "the jackal"
-msgstr "sciacallo"
+msgstr ""
 
 #: Source/itemdat.cpp:376
 msgid "the fox"
-msgstr "volpe"
+msgstr ""
 
 #: Source/itemdat.cpp:377
 msgid "the jaguar"
-msgstr "giaguaro"
+msgstr ""
 
 #: Source/itemdat.cpp:378
 msgid "the eagle"
-msgstr "aquila"
+msgstr ""
 
 #: Source/itemdat.cpp:379
 msgid "the wolf"
-msgstr "lupo"
+msgstr ""
 
 #: Source/itemdat.cpp:380
 msgid "the tiger"
-msgstr "tigre"
+msgstr ""
 
 #: Source/itemdat.cpp:381
 msgid "the lion"
-msgstr "leone"
+msgstr ""
 
 #: Source/itemdat.cpp:382
 msgid "the mammoth"
-msgstr "mammut"
+msgstr ""
 
 #: Source/itemdat.cpp:383
 msgid "the whale"
-msgstr "balena"
+msgstr ""
 
 #: Source/itemdat.cpp:384
 msgid "fragility"
-msgstr "fragilità"
+msgstr ""
 
 #: Source/itemdat.cpp:385
 msgid "brittleness"
-msgstr "debolezza"
+msgstr ""
 
 #: Source/itemdat.cpp:386
 msgid "sturdiness"
-msgstr "solidità"
+msgstr ""
 
 #: Source/itemdat.cpp:387
 msgid "craftsmanship"
-msgstr "maestria"
+msgstr ""
 
 #: Source/itemdat.cpp:388
 msgid "structure"
-msgstr "struttura"
+msgstr ""
 
 #: Source/itemdat.cpp:389
 msgid "the ages"
-msgstr "epoche"
+msgstr ""
 
 #: Source/itemdat.cpp:390
 msgid "the dark"
-msgstr "oscurità"
+msgstr ""
 
 #: Source/itemdat.cpp:391
 msgid "the night"
-msgstr "notte"
+msgstr ""
 
 #: Source/itemdat.cpp:392
 msgid "light"
-msgstr "luce"
+msgstr ""
 
 #: Source/itemdat.cpp:393
 msgid "radiance"
-msgstr "bagliore"
+msgstr ""
 
 #: Source/itemdat.cpp:394
 msgid "flame"
-msgstr "fiamma"
+msgstr ""
 
 #: Source/itemdat.cpp:395
 msgid "fire"
-msgstr "fuoco"
+msgstr ""
 
 #: Source/itemdat.cpp:396
 msgid "burning"
-msgstr "ardente"
+msgstr ""
 
 #: Source/itemdat.cpp:397
 msgid "shock"
-msgstr "shock"
+msgstr ""
 
 #: Source/itemdat.cpp:398
 msgid "lightning"
-msgstr "fulmine"
+msgstr ""
 
 #: Source/itemdat.cpp:399
 msgid "thunder"
-msgstr "tuono"
+msgstr ""
 
 #: Source/itemdat.cpp:400
 msgid "many"
-msgstr "molto"
+msgstr ""
 
 #: Source/itemdat.cpp:401
 msgid "plenty"
-msgstr "parecchio"
+msgstr ""
 
 #: Source/itemdat.cpp:402
 msgid "thorns"
-msgstr "spine"
+msgstr ""
 
 #: Source/itemdat.cpp:403
 msgid "corruption"
-msgstr "corruzione"
+msgstr ""
 
 #: Source/itemdat.cpp:404
 msgid "thieves"
-msgstr "ladri"
+msgstr ""
 
 #: Source/itemdat.cpp:405
 msgid "the bear"
-msgstr "orso"
+msgstr ""
 
 #: Source/itemdat.cpp:406
 msgid "the bat"
-msgstr "pipistrello"
+msgstr ""
 
 #: Source/itemdat.cpp:407
 msgid "vampires"
-msgstr "vampiri"
+msgstr ""
 
 #: Source/itemdat.cpp:408
 msgid "the leech"
-msgstr "sanguisuga"
+msgstr ""
 
 #: Source/itemdat.cpp:409
 msgid "blood"
-msgstr "sangue"
+msgstr ""
 
 #: Source/itemdat.cpp:410
 msgid "piercing"
-msgstr "perforazione"
+msgstr ""
 
 #: Source/itemdat.cpp:411
 msgid "puncturing"
-msgstr "penetrazione"
+msgstr ""
 
 #: Source/itemdat.cpp:412
 msgid "bashing"
-msgstr "stordimento"
+msgstr ""
 
 #: Source/itemdat.cpp:413
 msgid "readiness"
-msgstr "prontezza"
+msgstr ""
 
 #: Source/itemdat.cpp:414
 msgid "swiftness"
-msgstr "celerità"
+msgstr ""
 
 #: Source/itemdat.cpp:415
 msgid "speed"
-msgstr "velocità"
+msgstr ""
 
 #: Source/itemdat.cpp:416
 msgid "haste"
-msgstr "fretta"
+msgstr ""
 
 #: Source/itemdat.cpp:417
 msgid "balance"
-msgstr "equilibrio"
+msgstr ""
 
 #: Source/itemdat.cpp:418
 msgid "stability"
-msgstr "stabilità"
+msgstr ""
 
 #: Source/itemdat.cpp:419
 msgid "harmony"
-msgstr "armonia"
+msgstr ""
 
 #: Source/itemdat.cpp:420
 msgid "blocking"
-msgstr "blocco"
+msgstr ""
 
 #: Source/itemdat.cpp:421
 msgid "devastation"
-msgstr "ecatombe"
+msgstr ""
 
 #: Source/itemdat.cpp:422
 msgid "decay"
-msgstr "decadenza"
+msgstr ""
 
 #. TRANSLATORS: Item suffix section end.
 #: Source/itemdat.cpp:424
 msgid "peril"
-msgstr "pericolo"
+msgstr ""
 
 #. TRANSLATORS: Unique Item section
 #: Source/itemdat.cpp:434
 msgid "The Butcher's Cleaver"
-msgstr "Mannaia Del Macellaio"
+msgstr ""
 
 #: Source/itemdat.cpp:444
 msgid "The Rift Bow"
-msgstr "Arco del Dissenso"
+msgstr ""
 
 #: Source/itemdat.cpp:445
 msgid "The Needler"
-msgstr "Pungitore"
+msgstr ""
 
 #: Source/itemdat.cpp:446
 msgid "The Celestial Bow"
-msgstr "Arco Celestiale"
+msgstr ""
 
 #: Source/itemdat.cpp:447
 msgid "Deadly Hunter"
-msgstr "Cacciatore Letale"
+msgstr ""
 
 #: Source/itemdat.cpp:448
 msgid "Bow of the Dead"
-msgstr "Arco del Morto"
+msgstr ""
 
 #: Source/itemdat.cpp:449
 msgid "The Blackoak Bow"
-msgstr "Arco di Rovere Nero"
+msgstr ""
 
 #: Source/itemdat.cpp:450
 msgid "Flamedart"
-msgstr "Dardo di Fuoco"
+msgstr ""
 
 #: Source/itemdat.cpp:451
 msgid "Fleshstinger"
-msgstr "Pungicarne"
+msgstr ""
 
 #: Source/itemdat.cpp:452
 msgid "Windforce"
-msgstr "Forza del Vento"
+msgstr ""
 
 #: Source/itemdat.cpp:453
 msgid "Eaglehorn"
-msgstr "Corno d'Aquila"
+msgstr ""
 
 #: Source/itemdat.cpp:454
 msgid "Gonnagal's Dirk"
-msgstr "Pugnale di Gonnagal"
+msgstr ""
 
 #: Source/itemdat.cpp:455
 msgid "The Defender"
-msgstr "Il Difensore"
+msgstr ""
 
 #: Source/itemdat.cpp:456
 msgid "Gryphon's Claw"
-msgstr "Artiglio di Grifoni"
+msgstr ""
 
 #: Source/itemdat.cpp:457
 msgid "Black Razor"
-msgstr "Rasoio Nero"
+msgstr ""
 
 #: Source/itemdat.cpp:458
 msgid "Gibbous Moon"
-msgstr "Luna Gibbosa"
+msgstr ""
 
 #: Source/itemdat.cpp:459
 msgid "Ice Shank"
-msgstr "Stinco di Ghiaccio"
+msgstr ""
 
 #: Source/itemdat.cpp:460
 msgid "The Executioner's Blade"
-msgstr "La Lama Del Carnefice"
+msgstr ""
 
 #: Source/itemdat.cpp:461
 msgid "The Bonesaw"
-msgstr "Il Segaossa"
+msgstr ""
 
 #: Source/itemdat.cpp:462
 msgid "Shadowhawk"
-msgstr "Falco Ombra"
+msgstr ""
 
 #: Source/itemdat.cpp:463
 msgid "Wizardspike"
-msgstr "Picca del Mago"
+msgstr ""
 
 #: Source/itemdat.cpp:464
 msgid "Lightsabre"
-msgstr "Lama di Luce"
+msgstr ""
 
 #: Source/itemdat.cpp:465
 msgid "The Falcon's Talon"
-msgstr "Artiglio di Falco"
+msgstr ""
 
 #: Source/itemdat.cpp:466
 msgid "Inferno"
-msgstr "Inferno"
+msgstr ""
 
 #: Source/itemdat.cpp:467
 msgid "Doombringer"
-msgstr "Iettatore"
+msgstr ""
 
 #: Source/itemdat.cpp:468
 msgid "The Grizzly"
-msgstr "Il Grizzly"
+msgstr ""
 
 #: Source/itemdat.cpp:469
 msgid "The Grandfather"
-msgstr "Il Nonno"
+msgstr ""
 
 #: Source/itemdat.cpp:470
 msgid "The Mangler"
-msgstr "Il Divoratore"
+msgstr ""
 
 #: Source/itemdat.cpp:471
 msgid "Sharp Beak"
-msgstr "Becco Affilato"
+msgstr ""
 
 #: Source/itemdat.cpp:472
 msgid "BloodSlayer"
-msgstr "Assassino Cruento"
+msgstr ""
 
 #: Source/itemdat.cpp:473
 msgid "The Celestial Axe"
-msgstr "Ascia Celestiale"
+msgstr ""
 
 #: Source/itemdat.cpp:474
 msgid "Wicked Axe"
-msgstr "Ascia Nefasta"
+msgstr ""
 
 #: Source/itemdat.cpp:475
 msgid "Stonecleaver"
-msgstr "Fendiroccia"
+msgstr ""
 
 #: Source/itemdat.cpp:476
 msgid "Aguinara's Hatchet"
-msgstr "Accetta di Aguinara"
+msgstr ""
 
 #: Source/itemdat.cpp:477
 msgid "Hellslayer"
-msgstr "Assassino Infernale"
+msgstr ""
 
 #: Source/itemdat.cpp:478
 msgid "Messerschmidt's Reaver"
-msgstr "Preda di Messerschmidt"
+msgstr ""
 
 #: Source/itemdat.cpp:479
 msgid "Crackrust"
-msgstr "Crackrust"
+msgstr ""
 
 #: Source/itemdat.cpp:480
 msgid "Hammer of Jholm"
-msgstr "Maglio di Jholm"
+msgstr ""
 
 #: Source/itemdat.cpp:481
 msgid "Civerb's Cudgel"
-msgstr "Clava di Civerb"
+msgstr ""
 
 #: Source/itemdat.cpp:482
 msgid "The Celestial Star"
-msgstr "Stella Celestiale"
+msgstr ""
 
 #: Source/itemdat.cpp:483
 msgid "Baranar's Star"
-msgstr "Stella di Baranar"
+msgstr ""
 
 #: Source/itemdat.cpp:484
 msgid "Gnarled Root"
-msgstr "Radice Nodosa"
+msgstr ""
 
 #: Source/itemdat.cpp:485
 msgid "The Cranium Basher"
-msgstr "Sfascia Cranio"
+msgstr ""
 
 #: Source/itemdat.cpp:486
 msgid "Schaefer's Hammer"
-msgstr "Maglio di Schaefer"
+msgstr ""
 
 #: Source/itemdat.cpp:487
 msgid "Dreamflange"
-msgstr "Dreamflange"
+msgstr ""
 
 #: Source/itemdat.cpp:488
 msgid "Staff of Shadows"
-msgstr "Verga delle Ombre"
+msgstr ""
 
 #: Source/itemdat.cpp:489
 msgid "Immolator"
-msgstr "Immolatore"
+msgstr ""
 
 #: Source/itemdat.cpp:490
 msgid "Storm Spire"
-msgstr "Spira della Bufera"
+msgstr ""
 
 #: Source/itemdat.cpp:491
 msgid "Gleamsong"
-msgstr "Gleamsong"
+msgstr ""
 
 #: Source/itemdat.cpp:492
 msgid "Thundercall"
-msgstr "Invoca Tuoni"
+msgstr ""
 
 #: Source/itemdat.cpp:493
 msgid "The Protector"
-msgstr "Il Protettore"
+msgstr ""
 
 #: Source/itemdat.cpp:494
 msgid "Naj's Puzzler"
-msgstr "Enigma di Naj"
+msgstr ""
 
 #: Source/itemdat.cpp:495
 msgid "Mindcry"
-msgstr "Mindcry"
+msgstr ""
 
 #: Source/itemdat.cpp:496
 msgid "Rod of Onan"
-msgstr "Verga di Onan"
+msgstr ""
 
 #: Source/itemdat.cpp:497
 msgid "Helm of Spirits"
-msgstr "Elmo di Sprits"
+msgstr ""
 
 #: Source/itemdat.cpp:498
 msgid "Thinking Cap"
-msgstr "Cappuccio del Pensiero"
+msgstr ""
 
 #: Source/itemdat.cpp:499
 msgid "OverLord's Helm"
-msgstr "Elmo del Lord Supremo"
+msgstr ""
 
 #: Source/itemdat.cpp:500
 msgid "Fool's Crest"
-msgstr "Cresta del Giullare"
+msgstr ""
 
 #: Source/itemdat.cpp:501
 msgid "Gotterdamerung"
-msgstr "Crepuscolo degli Dei"
+msgstr ""
 
 #: Source/itemdat.cpp:502
 msgid "Royal Circlet"
-msgstr "Cerchio Regale"
+msgstr ""
 
 #: Source/itemdat.cpp:503
 msgid "Torn Flesh of Souls"
-msgstr "Brandelli di Anime"
+msgstr ""
 
 #: Source/itemdat.cpp:504
 msgid "The Gladiator's Bane"
-msgstr "Rovina Del Gladiatore"
+msgstr ""
 
 #: Source/itemdat.cpp:505
 msgid "The Rainbow Cloak"
-msgstr "Manto Arcobaleno"
+msgstr ""
 
 #: Source/itemdat.cpp:506
 msgid "Leather of Aut"
-msgstr "Cuoio di Aut"
+msgstr ""
 
 #: Source/itemdat.cpp:507
 msgid "Wisdom's Wrap"
-msgstr "Mantello di Saggezza"
+msgstr ""
 
 #: Source/itemdat.cpp:508
 msgid "Sparking Mail"
-msgstr "Corazza Lucente"
+msgstr ""
 
 #: Source/itemdat.cpp:509
 msgid "Scavenger Carapace"
-msgstr "Corazza Necrofaga"
+msgstr ""
 
 #: Source/itemdat.cpp:510
 msgid "Nightscape"
-msgstr "Paesaggio Notturno"
+msgstr ""
 
 #: Source/itemdat.cpp:511
 msgid "Naj's Light Plate"
-msgstr "Busto di Naj's"
+msgstr ""
 
 #: Source/itemdat.cpp:512
 msgid "Demonspike Coat"
-msgstr "Manto Demonspike"
+msgstr ""
 
 #: Source/itemdat.cpp:513
 msgid "The Deflector"
-msgstr "Il Deviatore"
+msgstr ""
 
 #: Source/itemdat.cpp:514
 msgid "Split Skull Shield"
-msgstr "Scudo Osseo Rotto"
+msgstr ""
 
 #: Source/itemdat.cpp:515
 msgid "Dragon's Breach"
-msgstr "Varco del Dragone"
+msgstr ""
 
 #: Source/itemdat.cpp:516
 msgid "Blackoak Shield"
-msgstr "Scudo di Rovere Nero"
+msgstr ""
 
 #: Source/itemdat.cpp:517
 msgid "Holy Defender"
-msgstr "Sacro Difensore"
+msgstr ""
 
 #: Source/itemdat.cpp:518
 msgid "Stormshield"
-msgstr "Scudo Tempesta"
+msgstr ""
 
 #: Source/itemdat.cpp:519
 msgid "Bramble"
-msgstr "Rovo"
+msgstr ""
 
 #: Source/itemdat.cpp:520
 msgid "Ring of Regha"
-msgstr "Anello di Regha"
+msgstr ""
 
 #: Source/itemdat.cpp:521
 msgid "The Bleeder"
-msgstr "Salassatore"
+msgstr ""
 
 #: Source/itemdat.cpp:522
 msgid "Constricting Ring"
-msgstr "Anello Costrittivo"
+msgstr ""
 
 #: Source/itemdat.cpp:523
 msgid "Ring of Engagement"
-msgstr "Anello del Dovere"
+msgstr ""
 
 #: Source/itemdat.cpp:524
 msgid "Giant's Knuckle"
-msgstr "Nocca del Gigante"
+msgstr ""
 
 #: Source/itemdat.cpp:525
 msgid "Mercurial Ring"
-msgstr "Anello Mercuriale"
+msgstr ""
 
 #: Source/itemdat.cpp:526
 msgid "Xorine's Ring"
-msgstr "Anello di Xorine"
+msgstr ""
 
 #: Source/itemdat.cpp:527
 msgid "Karik's Ring"
-msgstr "Anello di Karik"
+msgstr ""
 
 #: Source/itemdat.cpp:528
 msgid "Ring of Magma"
-msgstr "Anello di Magma"
+msgstr ""
 
 #: Source/itemdat.cpp:529
 msgid "Ring of the Mystics"
-msgstr "Anello dei Mistici"
+msgstr ""
 
 #: Source/itemdat.cpp:530
 msgid "Ring of Thunder"
-msgstr "Anello del Tuono"
+msgstr ""
 
 #: Source/itemdat.cpp:531
 msgid "Amulet of Warding"
-msgstr "Amuleto di Protezione"
+msgstr ""
 
 #: Source/itemdat.cpp:532
 msgid "Gnat Sting"
-msgstr "Puntura di Moscerino"
+msgstr ""
 
 #: Source/itemdat.cpp:533
 msgid "Flambeau"
-msgstr "Fiaccola"
+msgstr ""
 
 #: Source/itemdat.cpp:534
 msgid "Armor of Gloom"
-msgstr "Armatura delle Tenebre"
+msgstr ""
 
 #: Source/itemdat.cpp:535
 msgid "Blitzen"
-msgstr "Fulmine"
+msgstr ""
 
 #: Source/itemdat.cpp:536
 msgid "Thunderclap"
-msgstr "Rombo di Tuono"
+msgstr ""
 
 #: Source/itemdat.cpp:537
 msgid "Shirotachi"
-msgstr "Shirotachi"
+msgstr ""
 
 #: Source/itemdat.cpp:538
 msgid "Eater of Souls"
-msgstr "Divoratore di Anime"
+msgstr ""
 
 #: Source/itemdat.cpp:539
 msgid "Diamondedge"
-msgstr "Filo Diamantato"
+msgstr ""
 
 #: Source/itemdat.cpp:540
 msgid "Bone Chain Armor"
-msgstr "Armatura di Osso"
+msgstr ""
 
 #: Source/itemdat.cpp:541
 msgid "Demon Plate Armor"
-msgstr "Armatura Demoniaca a Piastre"
+msgstr ""
 
 #: Source/itemdat.cpp:542
 msgid "Acolyte's Amulet"
-msgstr "Amuleto del Chierico"
+msgstr ""
 
 #. TRANSLATORS: Unique Item section end.
 #: Source/itemdat.cpp:544
 msgid "Gladiator's Ring"
-msgstr "Anello del Gladiatore"
+msgstr ""
 
 #: Source/items.cpp:176
 msgid "Oil of Mastery"
-msgstr "Unguento di Maestria"
+msgstr ""
 
 #: Source/items.cpp:178
 msgid "Oil of Death"
-msgstr "Unguento di Morte"
+msgstr ""
 
 #: Source/items.cpp:179
 msgid "Oil of Skill"
-msgstr "Unguento d'Abilità"
+msgstr ""
 
 #: Source/items.cpp:181
 msgid "Oil of Fortitude"
-msgstr "Unguento di Fortezza"
+msgstr ""
 
 #: Source/items.cpp:182
 msgid "Oil of Permanence"
-msgstr "Unguento di Permanenza"
+msgstr ""
 
 #: Source/items.cpp:183
 msgid "Oil of Hardening"
-msgstr "Unguento di Tempra"
+msgstr ""
 
 #: Source/items.cpp:184
 msgid "Oil of Imperviousness"
-msgstr "Unguento d'Impermeabilità"
+msgstr ""
 
 #. TRANSLATORS: Constructs item names. Format: {Item} of {Spell}. Example: War Staff of Firewall
 #: Source/items.cpp:1113
 msgctxt "spell"
 msgid "{0} of {1}"
-msgstr "{0} di {1}"
+msgstr ""
 
 #. TRANSLATORS: Constructs item names. Format: {Prefix} {Item} of {Spell}. Example: King's War Staff of Firewall
 #: Source/items.cpp:1125
 msgctxt "spell"
 msgid "{0} {1} of {2}"
-msgstr "{1} {0} di {2}"
+msgstr ""
 
 #. TRANSLATORS: Constructs item names. Format: {Prefix} {Item} of {Suffix}. Example: King's Long Sword of the Whale
 #: Source/items.cpp:1163
@@ -4377,7 +4377,7 @@ msgstr "{} per leggere"
 #: Source/items.cpp:1862
 msgctxt "player"
 msgid "Level: {:d}"
-msgstr "Liv. : {:d}"
+msgstr ""
 
 #: Source/items.cpp:1866
 msgid "Doubles gold capacity"
@@ -4917,1121 +4917,1121 @@ msgstr "Impossibile mostrare menu"
 #: Source/monstdat.cpp:33
 msgctxt "monster"
 msgid "Zombie"
-msgstr "Zombi"
+msgstr ""
 
 #: Source/monstdat.cpp:34
 msgctxt "monster"
 msgid "Ghoul"
-msgstr "Ghoul"
+msgstr ""
 
 #: Source/monstdat.cpp:35
 msgctxt "monster"
 msgid "Rotting Carcass"
-msgstr "Carcassa in Decomposizione"
+msgstr ""
 
 #: Source/monstdat.cpp:36
 msgctxt "monster"
 msgid "Black Death"
-msgstr "Morte Nera"
+msgstr ""
 
 #: Source/monstdat.cpp:37 Source/monstdat.cpp:45
 msgctxt "monster"
 msgid "Fallen One"
-msgstr "Dannato"
+msgstr ""
 
 #: Source/monstdat.cpp:38 Source/monstdat.cpp:46
 msgctxt "monster"
 msgid "Carver"
-msgstr "Intagliatore"
+msgstr ""
 
 #: Source/monstdat.cpp:39 Source/monstdat.cpp:47
 msgctxt "monster"
 msgid "Devil Kin"
-msgstr "Stirpe del Diavolo"
+msgstr ""
 
 #: Source/monstdat.cpp:40 Source/monstdat.cpp:48
 msgctxt "monster"
 msgid "Dark One"
-msgstr "Oscuro"
+msgstr ""
 
 #: Source/monstdat.cpp:41 Source/monstdat.cpp:53
 msgctxt "monster"
 msgid "Skeleton"
-msgstr "Scheletro"
+msgstr ""
 
 #: Source/monstdat.cpp:42
 msgctxt "monster"
 msgid "Corpse Axe"
-msgstr "Cadavere con Ascia"
+msgstr ""
 
 #: Source/monstdat.cpp:43 Source/monstdat.cpp:55
 msgctxt "monster"
 msgid "Burning Dead"
-msgstr "Morto al Rogo"
+msgstr ""
 
 #: Source/monstdat.cpp:44 Source/monstdat.cpp:56
 msgctxt "monster"
 msgid "Horror"
-msgstr "Orrore"
+msgstr ""
 
 #: Source/monstdat.cpp:49
 msgctxt "monster"
 msgid "Scavenger"
-msgstr "Necrofago"
+msgstr ""
 
 #: Source/monstdat.cpp:50
 msgctxt "monster"
 msgid "Plague Eater"
-msgstr "Divoratore di Peste"
+msgstr ""
 
 #: Source/monstdat.cpp:51
 msgctxt "monster"
 msgid "Shadow Beast"
-msgstr "Bestia d'Ombra"
+msgstr ""
 
 #: Source/monstdat.cpp:52
 msgctxt "monster"
 msgid "Bone Gasher"
-msgstr "Sfregia Ossa"
+msgstr ""
 
 #: Source/monstdat.cpp:54
 msgctxt "monster"
 msgid "Corpse Bow"
-msgstr "Cadavere con Arco"
+msgstr ""
 
 #: Source/monstdat.cpp:57
 msgctxt "monster"
 msgid "Skeleton Captain"
-msgstr "Scheletro Capo"
+msgstr ""
 
 #: Source/monstdat.cpp:58
 msgctxt "monster"
 msgid "Corpse Captain"
-msgstr "Cadavere Capo"
+msgstr ""
 
 #: Source/monstdat.cpp:59
 msgctxt "monster"
 msgid "Burning Dead Captain"
-msgstr "Morto al Rogo Capo"
+msgstr ""
 
 #: Source/monstdat.cpp:60
 msgctxt "monster"
 msgid "Horror Captain"
-msgstr "Orrore Capo"
+msgstr ""
 
 #: Source/monstdat.cpp:61
 msgctxt "monster"
 msgid "Invisible Lord"
-msgstr "Lord Invisibile"
+msgstr ""
 
 #: Source/monstdat.cpp:62
 msgctxt "monster"
 msgid "Hidden"
-msgstr "Nascosto"
+msgstr ""
 
 #: Source/monstdat.cpp:63
 msgctxt "monster"
 msgid "Stalker"
-msgstr "Molestatore"
+msgstr ""
 
 #: Source/monstdat.cpp:64
 msgctxt "monster"
 msgid "Unseen"
-msgstr "Inosservato"
+msgstr ""
 
 #: Source/monstdat.cpp:65
 msgctxt "monster"
 msgid "Illusion Weaver"
-msgstr "Tessitore di Illusione"
+msgstr ""
 
 #: Source/monstdat.cpp:66
 msgctxt "monster"
 msgid "Satyr Lord"
-msgstr "Lord dei Satiri"
+msgstr ""
 
 #: Source/monstdat.cpp:67 Source/monstdat.cpp:75
 msgctxt "monster"
 msgid "Flesh Clan"
-msgstr "Clan delle Viscere"
+msgstr ""
 
 #: Source/monstdat.cpp:68 Source/monstdat.cpp:76
 msgctxt "monster"
 msgid "Stone Clan"
-msgstr "Clan di Pietra"
+msgstr ""
 
 #: Source/monstdat.cpp:69 Source/monstdat.cpp:77
 msgctxt "monster"
 msgid "Fire Clan"
-msgstr "Clan del Fuoco"
+msgstr ""
 
 #: Source/monstdat.cpp:70 Source/monstdat.cpp:78
 msgctxt "monster"
 msgid "Night Clan"
-msgstr "Clan delle Tenebre"
+msgstr ""
 
 #: Source/monstdat.cpp:71
 msgctxt "monster"
 msgid "Fiend"
-msgstr "Demone"
+msgstr ""
 
 #: Source/monstdat.cpp:72
 msgctxt "monster"
 msgid "Blink"
-msgstr "Guizzo"
+msgstr ""
 
 #: Source/monstdat.cpp:73
 msgctxt "monster"
 msgid "Gloom"
-msgstr "Tenebra"
+msgstr ""
 
 #: Source/monstdat.cpp:74
 msgctxt "monster"
 msgid "Familiar"
-msgstr "Sfacciato"
+msgstr ""
 
 #: Source/monstdat.cpp:79
 msgctxt "monster"
 msgid "Acid Beast"
-msgstr "Bestia d'Acido"
+msgstr ""
 
 #: Source/monstdat.cpp:80
 msgctxt "monster"
 msgid "Poison Spitter"
-msgstr "Sputa Veleno"
+msgstr ""
 
 #: Source/monstdat.cpp:81
 msgctxt "monster"
 msgid "Pit Beast"
-msgstr "Bestia da Fossa"
+msgstr ""
 
 #: Source/monstdat.cpp:82
 msgctxt "monster"
 msgid "Lava Maw"
-msgstr "Fauci di Lava"
+msgstr ""
 
 #: Source/monstdat.cpp:83 Source/monstdat.cpp:344
 msgctxt "monster"
 msgid "Skeleton King"
-msgstr "Scheletro Re"
+msgstr ""
 
 #: Source/monstdat.cpp:84 Source/monstdat.cpp:352
 msgctxt "monster"
 msgid "The Butcher"
-msgstr "Il Macellaio"
+msgstr ""
 
 #: Source/monstdat.cpp:85
 msgctxt "monster"
 msgid "Overlord"
-msgstr "Lord Supremo"
+msgstr ""
 
 #: Source/monstdat.cpp:86
 msgctxt "monster"
 msgid "Mud Man"
-msgstr "Uomo Melma"
+msgstr ""
 
 #: Source/monstdat.cpp:87
 msgctxt "monster"
 msgid "Toad Demon"
-msgstr "Demone Rospo"
+msgstr ""
 
 #: Source/monstdat.cpp:88
 msgctxt "monster"
 msgid "Flayed One"
-msgstr "Scuoiato"
+msgstr ""
 
 #: Source/monstdat.cpp:89
 msgctxt "monster"
 msgid "Wyrm"
-msgstr "Verme"
+msgstr ""
 
 #: Source/monstdat.cpp:90
 msgctxt "monster"
 msgid "Cave Slug"
-msgstr "Lumaca di Caverna"
+msgstr ""
 
 #: Source/monstdat.cpp:91
 msgctxt "monster"
 msgid "Devil Wyrm"
-msgstr "Verme Demoniaco"
+msgstr ""
 
 #: Source/monstdat.cpp:92
 msgctxt "monster"
 msgid "Devourer"
-msgstr "Divoratore"
+msgstr ""
 
 #: Source/monstdat.cpp:93
 msgctxt "monster"
 msgid "Magma Demon"
-msgstr "Demone di Magma"
+msgstr ""
 
 #: Source/monstdat.cpp:94
 msgctxt "monster"
 msgid "Blood Stone"
-msgstr "Pietra di Sangue"
+msgstr ""
 
 #: Source/monstdat.cpp:95
 msgctxt "monster"
 msgid "Hell Stone"
-msgstr "Roccia Infernale"
+msgstr ""
 
 #: Source/monstdat.cpp:96
 msgctxt "monster"
 msgid "Lava Lord"
-msgstr "Lord di Lava"
+msgstr ""
 
 #: Source/monstdat.cpp:97
 msgctxt "monster"
 msgid "Horned Demon"
-msgstr "Demone Cornuto"
+msgstr ""
 
 #: Source/monstdat.cpp:98
 msgctxt "monster"
 msgid "Mud Runner"
-msgstr "Velocista di Fango"
+msgstr ""
 
 #: Source/monstdat.cpp:99
 msgctxt "monster"
 msgid "Frost Charger"
-msgstr "Portatore di Gelo"
+msgstr ""
 
 #: Source/monstdat.cpp:100
 msgctxt "monster"
 msgid "Obsidian Lord"
-msgstr "Lord di Ossidiana"
+msgstr ""
 
 #: Source/monstdat.cpp:101
 msgctxt "monster"
 msgid "oldboned"
-msgstr "dissossato"
+msgstr ""
 
 #: Source/monstdat.cpp:102
 msgctxt "monster"
 msgid "Red Death"
-msgstr "Morte Rossa"
+msgstr ""
 
 #: Source/monstdat.cpp:103
 msgctxt "monster"
 msgid "Litch Demon"
-msgstr "Demone Litch"
+msgstr ""
 
 #: Source/monstdat.cpp:104
 msgctxt "monster"
 msgid "Undead Balrog"
-msgstr "Balrog Non Morto"
+msgstr ""
 
 #: Source/monstdat.cpp:105
 msgctxt "monster"
 msgid "Incinerator"
-msgstr "Inceneritore"
+msgstr ""
 
 #: Source/monstdat.cpp:106
 msgctxt "monster"
 msgid "Flame Lord"
-msgstr "Lord di Fiamma"
+msgstr ""
 
 #: Source/monstdat.cpp:107
 msgctxt "monster"
 msgid "Doom Fire"
-msgstr "Fuoco di Sventura"
+msgstr ""
 
 #: Source/monstdat.cpp:108
 msgctxt "monster"
 msgid "Hell Burner"
-msgstr "Fucina Infernale"
+msgstr ""
 
 #: Source/monstdat.cpp:109
 msgctxt "monster"
 msgid "Red Storm"
-msgstr "Tempesta Rossa"
+msgstr ""
 
 #: Source/monstdat.cpp:110
 msgctxt "monster"
 msgid "Storm Rider"
-msgstr "Velocista della Tempesta"
+msgstr ""
 
 #: Source/monstdat.cpp:111
 msgctxt "monster"
 msgid "Storm Lord"
-msgstr "Lord della Tempesta"
+msgstr ""
 
 #: Source/monstdat.cpp:112
 msgctxt "monster"
 msgid "Maelstrom"
-msgstr "Maelstrom"
+msgstr ""
 
 #: Source/monstdat.cpp:113
 msgctxt "monster"
 msgid "Devil Kin Brute"
-msgstr "Bruto Stirpe del Diavolo"
+msgstr ""
 
 #: Source/monstdat.cpp:114
 msgctxt "monster"
 msgid "Winged-Demon"
-msgstr "Demone Alato"
+msgstr ""
 
 #: Source/monstdat.cpp:115
 msgctxt "monster"
 msgid "Gargoyle"
-msgstr "Gargoyle"
+msgstr ""
 
 #: Source/monstdat.cpp:116
 msgctxt "monster"
 msgid "Blood Claw"
-msgstr "Artiglio Insanguinato"
+msgstr ""
 
 #: Source/monstdat.cpp:117
 msgctxt "monster"
 msgid "Death Wing"
-msgstr "Morte Alata"
+msgstr ""
 
 #: Source/monstdat.cpp:118
 msgctxt "monster"
 msgid "Slayer"
-msgstr "Assassino"
+msgstr ""
 
 #: Source/monstdat.cpp:119
 msgctxt "monster"
 msgid "Guardian"
-msgstr "Custode"
+msgstr ""
 
 #: Source/monstdat.cpp:120
 msgctxt "monster"
 msgid "Vortex Lord"
-msgstr "Lord del Vortice"
+msgstr ""
 
 #: Source/monstdat.cpp:121
 msgctxt "monster"
 msgid "Balrog"
-msgstr "Balrog"
+msgstr ""
 
 #: Source/monstdat.cpp:122
 msgctxt "monster"
 msgid "Cave Viper"
-msgstr "Vipera di Caverna"
+msgstr ""
 
 #: Source/monstdat.cpp:123
 msgctxt "monster"
 msgid "Fire Drake"
-msgstr "Drago di Fuoco"
+msgstr ""
 
 #: Source/monstdat.cpp:124
 msgctxt "monster"
 msgid "Gold Viper"
-msgstr "Vipera d'Oro"
+msgstr ""
 
 #: Source/monstdat.cpp:125
 msgctxt "monster"
 msgid "Azure Drake"
-msgstr "Drago Azzurro"
+msgstr ""
 
 #: Source/monstdat.cpp:126
 msgctxt "monster"
 msgid "Black Knight"
-msgstr "Cavaliere Nero"
+msgstr ""
 
 #: Source/monstdat.cpp:127
 msgctxt "monster"
 msgid "Doom Guard"
-msgstr "Custode del Destino"
+msgstr ""
 
 #: Source/monstdat.cpp:128
 msgctxt "monster"
 msgid "Steel Lord"
-msgstr "Lord d'Acciaio"
+msgstr ""
 
 #: Source/monstdat.cpp:129
 msgctxt "monster"
 msgid "Blood Knight"
-msgstr "Cavaliere di Sangue"
+msgstr ""
 
 #: Source/monstdat.cpp:130
 msgctxt "monster"
 msgid "The Shredded"
-msgstr "Il Triturato"
+msgstr ""
 
 #: Source/monstdat.cpp:131
 msgctxt "monster"
 msgid "Hollow One"
-msgstr "Incavato"
+msgstr ""
 
 #: Source/monstdat.cpp:132
 msgctxt "monster"
 msgid "Pain Master"
-msgstr "Signore del Dolore"
+msgstr ""
 
 #: Source/monstdat.cpp:133
 msgctxt "monster"
 msgid "Reality Weaver"
-msgstr "Tessitore di Realtà"
+msgstr ""
 
 #: Source/monstdat.cpp:134
 msgctxt "monster"
 msgid "Succubus"
-msgstr "Succubo"
+msgstr ""
 
 #: Source/monstdat.cpp:135
 msgctxt "monster"
 msgid "Snow Witch"
-msgstr "Strega della Neve"
+msgstr ""
 
 #: Source/monstdat.cpp:136
 msgctxt "monster"
 msgid "Hell Spawn"
-msgstr "Prole Infernale"
+msgstr ""
 
 #: Source/monstdat.cpp:137
 msgctxt "monster"
 msgid "Soul Burner"
-msgstr "Fucina di Anime"
+msgstr ""
 
 #: Source/monstdat.cpp:138
 msgctxt "monster"
 msgid "Counselor"
-msgstr "Consigliere"
+msgstr ""
 
 #: Source/monstdat.cpp:139
 msgctxt "monster"
 msgid "Magistrate"
-msgstr "Magistrato"
+msgstr ""
 
 #: Source/monstdat.cpp:140
 msgctxt "monster"
 msgid "Cabalist"
-msgstr "Cabalista"
+msgstr ""
 
 #: Source/monstdat.cpp:141
 msgctxt "monster"
 msgid "Advocate"
-msgstr "Difensore"
+msgstr ""
 
 #: Source/monstdat.cpp:142
 msgctxt "monster"
 msgid "Golem"
-msgstr "Golem"
+msgstr ""
 
 #: Source/monstdat.cpp:143
 msgctxt "monster"
 msgid "The Dark Lord"
-msgstr "Il Signore Oscuro"
+msgstr ""
 
 #: Source/monstdat.cpp:144
 msgctxt "monster"
 msgid "The Arch-Litch Malignus"
-msgstr "Il Maligno Arci Litch"
+msgstr ""
 
 #: Source/monstdat.cpp:145
 msgctxt "monster"
 msgid "Hellboar"
-msgstr "Cinghiale infernale"
+msgstr ""
 
 #: Source/monstdat.cpp:146
 msgctxt "monster"
 msgid "Stinger"
-msgstr "Pungiglione"
+msgstr ""
 
 #: Source/monstdat.cpp:147
 msgctxt "monster"
 msgid "Psychorb"
-msgstr "Psychorb"
+msgstr ""
 
 #: Source/monstdat.cpp:148
 msgctxt "monster"
 msgid "Arachnon"
-msgstr "Arachnon"
+msgstr ""
 
 #: Source/monstdat.cpp:149
 msgctxt "monster"
 msgid "Felltwin"
-msgstr "Felltwin"
+msgstr ""
 
 #: Source/monstdat.cpp:150
 msgctxt "monster"
 msgid "Hork Spawn"
-msgstr "Prole di Hork"
+msgstr ""
 
 #: Source/monstdat.cpp:151
 msgctxt "monster"
 msgid "Venomtail"
-msgstr "Coda Velenosa"
+msgstr ""
 
 #: Source/monstdat.cpp:152
 msgctxt "monster"
 msgid "Necromorb"
-msgstr "Necromorb"
+msgstr ""
 
 #: Source/monstdat.cpp:153
 msgctxt "monster"
 msgid "Spider Lord"
-msgstr "Lord Ragno"
+msgstr ""
 
 #: Source/monstdat.cpp:154
 msgctxt "monster"
 msgid "Lashworm"
-msgstr "Lashworm"
+msgstr ""
 
 #: Source/monstdat.cpp:155
 msgctxt "monster"
 msgid "Torchant"
-msgstr "Torchant"
+msgstr ""
 
 #: Source/monstdat.cpp:156 Source/monstdat.cpp:353
 msgctxt "monster"
 msgid "Hork Demon"
-msgstr "Hork il Demone"
+msgstr ""
 
 #: Source/monstdat.cpp:157
 msgctxt "monster"
 msgid "Hell Bug"
-msgstr "Insetto Infernale"
+msgstr ""
 
 #: Source/monstdat.cpp:158
 msgctxt "monster"
 msgid "Gravedigger"
-msgstr "Becchino"
+msgstr ""
 
 #: Source/monstdat.cpp:159
 msgctxt "monster"
 msgid "Tomb Rat"
-msgstr "Ratto di Tomba"
+msgstr ""
 
 #: Source/monstdat.cpp:160
 msgctxt "monster"
 msgid "Firebat"
-msgstr "Pipistrello Infuocato"
+msgstr ""
 
 #: Source/monstdat.cpp:161
 msgctxt "monster"
 msgid "Skullwing"
-msgstr "Teschio Alato"
+msgstr ""
 
 #: Source/monstdat.cpp:162
 msgctxt "monster"
 msgid "Lich"
-msgstr "Lich"
+msgstr ""
 
 #: Source/monstdat.cpp:163
 msgctxt "monster"
 msgid "Crypt Demon"
-msgstr "Demone della Cripta"
+msgstr ""
 
 #: Source/monstdat.cpp:164
 msgctxt "monster"
 msgid "Hellbat"
-msgstr "Pipistrello Infernale"
+msgstr ""
 
 #: Source/monstdat.cpp:165
 msgctxt "monster"
 msgid "Bone Demon"
-msgstr "Demone di Ossa"
+msgstr ""
 
 #: Source/monstdat.cpp:166
 msgctxt "monster"
 msgid "Arch Lich"
-msgstr "Arci Lich"
+msgstr ""
 
 #: Source/monstdat.cpp:167
 msgctxt "monster"
 msgid "Biclops"
-msgstr "Biciclope"
+msgstr ""
 
 #: Source/monstdat.cpp:168
 msgctxt "monster"
 msgid "Flesh Thing"
-msgstr "Pasticcio di Carne"
+msgstr ""
 
 #: Source/monstdat.cpp:169
 msgctxt "monster"
 msgid "Reaper"
-msgstr "Mietitore"
+msgstr ""
 
 #. TRANSLATORS: Monster Block end
 #. MT_NAKRUL
 #: Source/monstdat.cpp:171 Source/monstdat.cpp:355
 msgctxt "monster"
 msgid "Na-Krul"
-msgstr "Na-Krul"
+msgstr ""
 
 #. TRANSLATORS: Unique Monster Block start
 #: Source/monstdat.cpp:343
 msgctxt "monster"
 msgid "Gharbad the Weak"
-msgstr "Gharbad il Fiacco"
+msgstr ""
 
 #: Source/monstdat.cpp:345
 msgctxt "monster"
 msgid "Zhar the Mad"
-msgstr "Zhar il Folle"
+msgstr ""
 
 #: Source/monstdat.cpp:346
 msgctxt "monster"
 msgid "Snotspill"
-msgstr "Moccio"
+msgstr ""
 
 #: Source/monstdat.cpp:347
 msgctxt "monster"
 msgid "Arch-Bishop Lazarus"
-msgstr "Arcivescovo Lazarus"
+msgstr ""
 
 #: Source/monstdat.cpp:348
 msgctxt "monster"
 msgid "Red Vex"
-msgstr "Tormento Rosso"
+msgstr ""
 
 #: Source/monstdat.cpp:349
 msgctxt "monster"
 msgid "Black Jade"
-msgstr "Giada Nera"
+msgstr ""
 
 #: Source/monstdat.cpp:350
 msgctxt "monster"
 msgid "Lachdanan"
-msgstr "Lachdanan"
+msgstr ""
 
 #: Source/monstdat.cpp:351
 msgctxt "monster"
 msgid "Warlord of Blood"
-msgstr "Comandante del Sangue"
+msgstr ""
 
 #: Source/monstdat.cpp:354
 msgctxt "monster"
 msgid "The Defiler"
-msgstr "Il Profanatore"
+msgstr ""
 
 #: Source/monstdat.cpp:356
 msgctxt "monster"
 msgid "Bonehead Keenaxe"
-msgstr "Bonehead Keenaxe"
+msgstr ""
 
 #: Source/monstdat.cpp:357
 msgctxt "monster"
 msgid "Bladeskin the Slasher"
-msgstr "Bladeskin lo Squartatore"
+msgstr ""
 
 #: Source/monstdat.cpp:358
 msgctxt "monster"
 msgid "Soulpus"
-msgstr "Purulento"
+msgstr ""
 
 #: Source/monstdat.cpp:359
 msgctxt "monster"
 msgid "Pukerat the Unclean"
-msgstr "Pukerat l'Impuro"
+msgstr ""
 
 #: Source/monstdat.cpp:360
 msgctxt "monster"
 msgid "Boneripper"
-msgstr "Squarta Ossa"
+msgstr ""
 
 #: Source/monstdat.cpp:361
 msgctxt "monster"
 msgid "Rotfeast the Hungry"
-msgstr "Rotfeast il Famelico"
+msgstr ""
 
 #: Source/monstdat.cpp:362
 msgctxt "monster"
 msgid "Gutshank the Quick"
-msgstr "Gutshank il Lesto"
+msgstr ""
 
 #: Source/monstdat.cpp:363
 msgctxt "monster"
 msgid "Brokenhead Bangshield"
-msgstr "Brokenhead Bangshield"
+msgstr ""
 
 #: Source/monstdat.cpp:364
 msgctxt "monster"
 msgid "Bongo"
-msgstr "Bongo"
+msgstr ""
 
 #: Source/monstdat.cpp:365
 msgctxt "monster"
 msgid "Rotcarnage"
-msgstr "Strage di Marciume"
+msgstr ""
 
 #: Source/monstdat.cpp:366
 msgctxt "monster"
 msgid "Shadowbite"
-msgstr "Morso di Tenebra"
+msgstr ""
 
 #: Source/monstdat.cpp:367
 msgctxt "monster"
 msgid "Deadeye"
-msgstr "Occhio Morto"
+msgstr ""
 
 #: Source/monstdat.cpp:368
 msgctxt "monster"
 msgid "Madeye the Dead"
-msgstr "Madeye il Morto"
+msgstr ""
 
 #: Source/monstdat.cpp:369
 msgctxt "monster"
 msgid "El Chupacabras"
-msgstr "Chupacabra"
+msgstr ""
 
 #: Source/monstdat.cpp:370
 msgctxt "monster"
 msgid "Skullfire"
-msgstr "Teschio Infuocato"
+msgstr ""
 
 #: Source/monstdat.cpp:371
 msgctxt "monster"
 msgid "Warpskull"
-msgstr "Teschio Deforme"
+msgstr ""
 
 #: Source/monstdat.cpp:372
 msgctxt "monster"
 msgid "Goretongue"
-msgstr "Lingua Cruenta"
+msgstr ""
 
 #: Source/monstdat.cpp:373
 msgctxt "monster"
 msgid "Pulsecrawler"
-msgstr "Pulsecrawler"
+msgstr ""
 
 #: Source/monstdat.cpp:374
 msgctxt "monster"
 msgid "Moonbender"
-msgstr "Moonbender"
+msgstr ""
 
 #: Source/monstdat.cpp:375
 msgctxt "monster"
 msgid "Wrathraven"
-msgstr "Corvo d'Ira"
+msgstr ""
 
 #: Source/monstdat.cpp:376
 msgctxt "monster"
 msgid "Spineeater"
-msgstr "Mangia Vertebre"
+msgstr ""
 
 #: Source/monstdat.cpp:377
 msgctxt "monster"
 msgid "Blackash the Burning"
-msgstr "Blackash il Bruciato"
+msgstr ""
 
 #: Source/monstdat.cpp:378
 msgctxt "monster"
 msgid "Shadowcrow"
-msgstr "Corvo Ombra"
+msgstr ""
 
 #: Source/monstdat.cpp:379
 msgctxt "monster"
 msgid "Blightstone the Weak"
-msgstr "Blightstone il Fiacco"
+msgstr ""
 
 #: Source/monstdat.cpp:380
 msgctxt "monster"
 msgid "Bilefroth the Pit Master"
-msgstr "Bilefroth Padron del Fosso"
+msgstr ""
 
 #: Source/monstdat.cpp:381
 msgctxt "monster"
 msgid "Bloodskin Darkbow"
-msgstr "Bloodskin Darkbow"
+msgstr ""
 
 #: Source/monstdat.cpp:382
 msgctxt "monster"
 msgid "Foulwing"
-msgstr "Turpe Alato"
+msgstr ""
 
 #: Source/monstdat.cpp:383
 msgctxt "monster"
 msgid "Shadowdrinker"
-msgstr "Succhia Ombra"
+msgstr ""
 
 #: Source/monstdat.cpp:384
 msgctxt "monster"
 msgid "Hazeshifter"
-msgstr "Foschia Mutevole"
+msgstr ""
 
 #: Source/monstdat.cpp:385
 msgctxt "monster"
 msgid "Deathspit"
-msgstr "Sputa Morte"
+msgstr ""
 
 #: Source/monstdat.cpp:386
 msgctxt "monster"
 msgid "Bloodgutter"
-msgstr "Bloodgutter"
+msgstr ""
 
 #: Source/monstdat.cpp:387
 msgctxt "monster"
 msgid "Deathshade Fleshmaul"
-msgstr "Deathshade Fleshmaul"
+msgstr ""
 
 #: Source/monstdat.cpp:388
 msgctxt "monster"
 msgid "Warmaggot the Mad"
-msgstr "Warmaggot il Pazzo"
+msgstr ""
 
 #: Source/monstdat.cpp:389
 msgctxt "monster"
 msgid "Glasskull the Jagged"
-msgstr "Glasskull il Dentato"
+msgstr ""
 
 #: Source/monstdat.cpp:390
 msgctxt "monster"
 msgid "Blightfire"
-msgstr "Fuoco di Sventura"
+msgstr ""
 
 #: Source/monstdat.cpp:391
 msgctxt "monster"
 msgid "Nightwing the Cold"
-msgstr "Nightwing il Gelido"
+msgstr ""
 
 #: Source/monstdat.cpp:392
 msgctxt "monster"
 msgid "Gorestone"
-msgstr "Masso Cruento"
+msgstr ""
 
 #: Source/monstdat.cpp:393
 msgctxt "monster"
 msgid "Bronzefist Firestone"
-msgstr "Bronzefist Firestone"
+msgstr ""
 
 #: Source/monstdat.cpp:394
 msgctxt "monster"
 msgid "Wrathfire the Doomed"
-msgstr "Wrathfire il Dannato"
+msgstr ""
 
 #: Source/monstdat.cpp:395
 msgctxt "monster"
 msgid "Firewound the Grim"
-msgstr "Firewound il Bieco"
+msgstr ""
 
 #: Source/monstdat.cpp:396
 msgctxt "monster"
 msgid "Baron Sludge"
-msgstr "Barone di Melma"
+msgstr ""
 
 #: Source/monstdat.cpp:397
 msgctxt "monster"
 msgid "Blighthorn Steelmace"
-msgstr "Blighthorn Steelmace"
+msgstr ""
 
 #: Source/monstdat.cpp:398
 msgctxt "monster"
 msgid "Chaoshowler"
-msgstr "Chaoshowler"
+msgstr ""
 
 #: Source/monstdat.cpp:399
 msgctxt "monster"
 msgid "Doomgrin the Rotting"
-msgstr "Doomgrin il Marcio"
+msgstr ""
 
 #: Source/monstdat.cpp:400
 msgctxt "monster"
 msgid "Madburner"
-msgstr "Madburner"
+msgstr ""
 
 #: Source/monstdat.cpp:401
 msgctxt "monster"
 msgid "Bonesaw the Litch"
-msgstr "Bonesaw il Litch"
+msgstr ""
 
 #: Source/monstdat.cpp:402
 msgctxt "monster"
 msgid "Breakspine"
-msgstr "Spacca Vertebre"
+msgstr ""
 
 #: Source/monstdat.cpp:403
 msgctxt "monster"
 msgid "Devilskull Sharpbone"
-msgstr "Devilskull Sharpbone"
+msgstr ""
 
 #: Source/monstdat.cpp:404
 msgctxt "monster"
 msgid "Brokenstorm"
-msgstr "Brokenstorm"
+msgstr ""
 
 #: Source/monstdat.cpp:405
 msgctxt "monster"
 msgid "Stormbane"
-msgstr "Stormbane"
+msgstr ""
 
 #: Source/monstdat.cpp:406
 msgctxt "monster"
 msgid "Oozedrool"
-msgstr "Oozedrool"
+msgstr ""
 
 #: Source/monstdat.cpp:407
 msgctxt "monster"
 msgid "Goldblight of the Flame"
-msgstr "Goldblight di Fiamma"
+msgstr ""
 
 #: Source/monstdat.cpp:408
 msgctxt "monster"
 msgid "Blackstorm"
-msgstr "Tempesta Nera"
+msgstr ""
 
 #: Source/monstdat.cpp:409
 msgctxt "monster"
 msgid "Plaguewrath"
-msgstr "Appestato"
+msgstr ""
 
 #: Source/monstdat.cpp:410
 msgctxt "monster"
 msgid "The Flayer"
-msgstr "Lo Scuoiato"
+msgstr ""
 
 #: Source/monstdat.cpp:411
 msgctxt "monster"
 msgid "Bluehorn"
-msgstr "Corno Blu"
+msgstr ""
 
 #: Source/monstdat.cpp:412
 msgctxt "monster"
 msgid "Warpfire Hellspawn"
-msgstr "Warpfire Hellspawn"
+msgstr ""
 
 #: Source/monstdat.cpp:413
 msgctxt "monster"
 msgid "Fangspeir"
-msgstr "Fangspeir"
+msgstr ""
 
 #: Source/monstdat.cpp:414
 msgctxt "monster"
 msgid "Festerskull"
-msgstr "Teschio Marcio"
+msgstr ""
 
 #: Source/monstdat.cpp:415
 msgctxt "monster"
 msgid "Lionskull the Bent"
-msgstr "Lionskull il Curvo"
+msgstr ""
 
 #: Source/monstdat.cpp:416
 msgctxt "monster"
 msgid "Blacktongue"
-msgstr "Lingua Nera"
+msgstr ""
 
 #: Source/monstdat.cpp:417
 msgctxt "monster"
 msgid "Viletouch"
-msgstr "Vil Tocco"
+msgstr ""
 
 #: Source/monstdat.cpp:418
 msgctxt "monster"
 msgid "Viperflame"
-msgstr "Serpe di Fuoco"
+msgstr ""
 
 #: Source/monstdat.cpp:419
 msgctxt "monster"
 msgid "Fangskin"
-msgstr "Fangskin"
+msgstr ""
 
 #: Source/monstdat.cpp:420
 msgctxt "monster"
 msgid "Witchfire the Unholy"
-msgstr "Witchfire l'Empio"
+msgstr ""
 
 #: Source/monstdat.cpp:421
 msgctxt "monster"
 msgid "Blackskull"
-msgstr "Teschio Nero"
+msgstr ""
 
 #: Source/monstdat.cpp:422
 msgctxt "monster"
 msgid "Soulslash"
-msgstr "Soulslash"
+msgstr ""
 
 #: Source/monstdat.cpp:423
 msgctxt "monster"
 msgid "Windspawn"
-msgstr "Windspawn"
+msgstr ""
 
 #: Source/monstdat.cpp:424
 msgctxt "monster"
 msgid "Lord of the Pit"
-msgstr "Lord della Fossa"
+msgstr ""
 
 #: Source/monstdat.cpp:425
 msgctxt "monster"
 msgid "Rustweaver"
-msgstr "Rustweaver"
+msgstr ""
 
 #: Source/monstdat.cpp:426
 msgctxt "monster"
 msgid "Howlingire the Shade"
-msgstr "Howlingire l'Ombra"
+msgstr ""
 
 #: Source/monstdat.cpp:427
 msgctxt "monster"
 msgid "Doomcloud"
-msgstr "Doomcloud"
+msgstr ""
 
 #: Source/monstdat.cpp:428
 msgctxt "monster"
 msgid "Bloodmoon Soulfire"
-msgstr "Bloodmoon Soulfire"
+msgstr ""
 
 #: Source/monstdat.cpp:429
 msgctxt "monster"
 msgid "Witchmoon"
-msgstr "Witchmoon"
+msgstr ""
 
 #: Source/monstdat.cpp:430
 msgctxt "monster"
 msgid "Gorefeast"
-msgstr "Gorefeast"
+msgstr ""
 
 #: Source/monstdat.cpp:431
 msgctxt "monster"
 msgid "Graywar the Slayer"
-msgstr "Graywar l'Assassino"
+msgstr ""
 
 #: Source/monstdat.cpp:432
 msgctxt "monster"
 msgid "Dreadjudge"
-msgstr "Dreadjudge"
+msgstr ""
 
 #: Source/monstdat.cpp:433
 msgctxt "monster"
 msgid "Stareye the Witch"
-msgstr "Stareye La Strega"
+msgstr ""
 
 #: Source/monstdat.cpp:434
 msgctxt "monster"
 msgid "Steelskull the Hunter"
-msgstr "Steelskull il Cacciatore"
+msgstr ""
 
 #: Source/monstdat.cpp:435
 msgctxt "monster"
 msgid "Sir Gorash"
-msgstr "Sir Gorash"
+msgstr ""
 
 #: Source/monstdat.cpp:436
 msgctxt "monster"
 msgid "The Vizier"
-msgstr "Il Visir"
+msgstr ""
 
 #: Source/monstdat.cpp:437
 msgctxt "monster"
 msgid "Zamphir"
-msgstr "Zamphir"
+msgstr ""
 
 #: Source/monstdat.cpp:438
 msgctxt "monster"
 msgid "Bloodlust"
-msgstr "Bloodlust"
+msgstr ""
 
 #: Source/monstdat.cpp:439
 msgctxt "monster"
 msgid "Webwidow"
-msgstr "Rete di Vedova"
+msgstr ""
 
 #: Source/monstdat.cpp:440
 msgctxt "monster"
 msgid "Fleshdancer"
-msgstr "Fleshdancer"
+msgstr ""
 
 #: Source/monstdat.cpp:441
 msgctxt "monster"
 msgid "Grimspike"
-msgstr "Grimspike"
+msgstr ""
 
 #. TRANSLATORS: Unique Monster Block end
 #: Source/monstdat.cpp:443
 msgctxt "monster"
 msgid "Doomlock"
-msgstr "Doomlock"
+msgstr ""
 
 #: Source/monster.cpp:2964
 msgid "Animal"
@@ -6148,124 +6148,124 @@ msgstr "'{:s}' (liv. {:d}) è già in partita"
 #. TRANSLATORS: Shrine Name Block
 #: Source/objects.cpp:120
 msgid "Mysterious"
-msgstr "Misterioso"
+msgstr ""
 
 #: Source/objects.cpp:121
 msgid "Hidden"
-msgstr "Nascosto"
+msgstr ""
 
 #: Source/objects.cpp:122
 msgid "Gloomy"
-msgstr "Cupo"
+msgstr ""
 
 #: Source/objects.cpp:124 Source/objects.cpp:131
 msgid "Magical"
-msgstr "Magico"
+msgstr ""
 
 #: Source/objects.cpp:125
 msgid "Stone"
-msgstr "Sasso"
+msgstr ""
 
 #: Source/objects.cpp:126
 msgid "Religious"
-msgstr "Religioso"
+msgstr ""
 
 #: Source/objects.cpp:127
 msgid "Enchanted"
-msgstr "Incantato"
+msgstr ""
 
 #: Source/objects.cpp:128
 msgid "Thaumaturgic"
-msgstr "Taumaturgico"
+msgstr ""
 
 #: Source/objects.cpp:129
 msgid "Fascinating"
-msgstr "Avvenente"
+msgstr ""
 
 #: Source/objects.cpp:130
 msgid "Cryptic"
-msgstr "Sibillino"
+msgstr ""
 
 #: Source/objects.cpp:132
 msgid "Eldritch"
-msgstr "Arcano"
+msgstr ""
 
 #: Source/objects.cpp:133
 msgid "Eerie"
-msgstr "Inquietante"
+msgstr ""
 
 #: Source/objects.cpp:134
 msgid "Divine"
-msgstr "Divino"
+msgstr ""
 
 #: Source/objects.cpp:136
 msgid "Sacred"
-msgstr "Sacro"
+msgstr ""
 
 #: Source/objects.cpp:137
 msgid "Spiritual"
-msgstr "Spirituale"
+msgstr ""
 
 #: Source/objects.cpp:138
 msgid "Spooky"
-msgstr "Sinistro"
+msgstr ""
 
 #: Source/objects.cpp:139
 msgid "Abandoned"
-msgstr "Abbandonato"
+msgstr ""
 
 #: Source/objects.cpp:140
 msgid "Creepy"
-msgstr "Pauroso"
+msgstr ""
 
 #: Source/objects.cpp:141
 msgid "Quiet"
-msgstr "Calmo"
+msgstr ""
 
 #: Source/objects.cpp:142
 msgid "Secluded"
-msgstr "Segreto"
+msgstr ""
 
 #: Source/objects.cpp:143
 msgid "Ornate"
-msgstr "Ornato"
+msgstr ""
 
 #: Source/objects.cpp:144
 msgid "Glimmering"
-msgstr "Luccicante"
+msgstr ""
 
 #: Source/objects.cpp:145
 msgid "Tainted"
-msgstr "Contaminato"
+msgstr ""
 
 #: Source/objects.cpp:146
 msgid "Oily"
-msgstr "Untuoso"
+msgstr ""
 
 #: Source/objects.cpp:147
 msgid "Glowing"
-msgstr "Brillante"
+msgstr ""
 
 #: Source/objects.cpp:148
 msgid "Mendicant's"
-msgstr "del Mendicante"
+msgstr ""
 
 #: Source/objects.cpp:149
 msgid "Sparkling"
-msgstr "Sfavillante"
+msgstr ""
 
 #: Source/objects.cpp:151
 msgid "Shimmering"
-msgstr "Scintillante"
+msgstr ""
 
 #: Source/objects.cpp:152
 msgid "Solar"
-msgstr "Solare"
+msgstr ""
 
 #. TRANSLATORS: Shrine Name Block end
 #: Source/objects.cpp:154
 msgid "Murphy's"
-msgstr "di Murphy"
+msgstr ""
 
 #. TRANSLATORS: Book Title
 #: Source/objects.cpp:284
@@ -6369,55 +6369,55 @@ msgstr "Porta Bloccata"
 
 #: Source/objects.cpp:4872
 msgid "Ancient Tome"
-msgstr "Tomo Antico"
+msgstr ""
 
 #: Source/objects.cpp:4874
 msgid "Book of Vileness"
-msgstr "Libro della Viltà"
+msgstr ""
 
 #: Source/objects.cpp:4879
 msgid "Skull Lever"
-msgstr "Leva con Teschio"
+msgstr ""
 
 #: Source/objects.cpp:4881
 msgid "Mythical Book"
-msgstr "Libro Mitico"
+msgstr ""
 
 #: Source/objects.cpp:4884
 msgid "Small Chest"
-msgstr "Cofanetto"
+msgstr ""
 
 #: Source/objects.cpp:4887
 msgid "Chest"
-msgstr "Baule"
+msgstr ""
 
 #: Source/objects.cpp:4891
 msgid "Large Chest"
-msgstr "Scrigno"
+msgstr ""
 
 #: Source/objects.cpp:4894
 msgid "Sarcophagus"
-msgstr "Sarcofago"
+msgstr ""
 
 #: Source/objects.cpp:4896
 msgid "Bookshelf"
-msgstr "Scaffale"
+msgstr ""
 
 #: Source/objects.cpp:4899
 msgid "Bookcase"
-msgstr "Libreria"
+msgstr ""
 
 #: Source/objects.cpp:4902
 msgid "Barrel"
-msgstr "Barile"
+msgstr ""
 
 #: Source/objects.cpp:4905
 msgid "Pod"
-msgstr "Capsula"
+msgstr ""
 
 #: Source/objects.cpp:4908
 msgid "Urn"
-msgstr "Urna"
+msgstr ""
 
 #. TRANSLATORS: {:s} will be a name from the Shrine block above
 #: Source/objects.cpp:4911
@@ -6426,71 +6426,71 @@ msgstr "{:s} Santuario"
 
 #: Source/objects.cpp:4913
 msgid "Skeleton Tome"
-msgstr "Tomo dello Scheletro"
+msgstr ""
 
 #: Source/objects.cpp:4915
 msgid "Library Book"
-msgstr "Libro di Biblioteca"
+msgstr ""
 
 #: Source/objects.cpp:4917
 msgid "Blood Fountain"
-msgstr "Fonte del Sangue"
+msgstr ""
 
 #: Source/objects.cpp:4919
 msgid "Decapitated Body"
-msgstr "Corpo Decapitato"
+msgstr ""
 
 #: Source/objects.cpp:4921
 msgid "Book of the Blind"
-msgstr "Libro degli Orbi"
+msgstr ""
 
 #: Source/objects.cpp:4923
 msgid "Book of Blood"
-msgstr "Libro del Sangue"
+msgstr ""
 
 #: Source/objects.cpp:4925
 msgid "Purifying Spring"
-msgstr "Primavera Purificante"
+msgstr ""
 
 #: Source/objects.cpp:4930 Source/objects.cpp:4947
 msgid "Weapon Rack"
-msgstr "Rastrelliera"
+msgstr ""
 
 #: Source/objects.cpp:4932
 msgid "Goat Shrine"
-msgstr "Santuario della Capra"
+msgstr ""
 
 #: Source/objects.cpp:4934
 msgid "Cauldron"
-msgstr "Calderone"
+msgstr ""
 
 #: Source/objects.cpp:4936
 msgid "Murky Pool"
-msgstr "Pozza Buia"
+msgstr ""
 
 #: Source/objects.cpp:4938
 msgid "Fountain of Tears"
-msgstr "Fonte del Pianto"
+msgstr ""
 
 #: Source/objects.cpp:4940
 msgid "Steel Tome"
-msgstr "Tomo d'Acciaio"
+msgstr ""
 
 #: Source/objects.cpp:4942
 msgid "Pedestal of Blood"
-msgstr "Colonna di Sangue"
+msgstr ""
 
 #: Source/objects.cpp:4949
 msgid "Mushroom Patch"
-msgstr "Pugno di Funghi"
+msgstr ""
 
 #: Source/objects.cpp:4951
 msgid "Vile Stand"
-msgstr "Stallo del Vile"
+msgstr ""
 
 #: Source/objects.cpp:4953
 msgid "Slain Hero"
-msgstr "Eroe Ucciso"
+msgstr ""
 
 #. TRANSLATORS: {:s} will either be a chest or a door
 #: Source/objects.cpp:4965
@@ -7531,257 +7531,257 @@ msgstr "Verso {:s}"
 #: Source/spelldat.cpp:24
 msgctxt "spell"
 msgid "Firebolt"
-msgstr "Fulmine Infuocato"
+msgstr ""
 
 #: Source/spelldat.cpp:25
 msgctxt "spell"
 msgid "Healing"
-msgstr "Guarigione"
+msgstr ""
 
 #: Source/spelldat.cpp:26
 msgctxt "spell"
 msgid "Lightning"
-msgstr "Fulmine"
+msgstr ""
 
 #: Source/spelldat.cpp:27
 msgctxt "spell"
 msgid "Flash"
-msgstr "Bagliore"
+msgstr ""
 
 #: Source/spelldat.cpp:28
 msgctxt "spell"
 msgid "Identify"
-msgstr "Identifica"
+msgstr ""
 
 #: Source/spelldat.cpp:29
 msgctxt "spell"
 msgid "Fire Wall"
-msgstr "Muro Infuocato"
+msgstr ""
 
 #: Source/spelldat.cpp:30
 msgctxt "spell"
 msgid "Town Portal"
-msgstr "Portale Cittadino"
+msgstr ""
 
 #: Source/spelldat.cpp:31
 msgctxt "spell"
 msgid "Stone Curse"
-msgstr "Inganno di Pietra"
+msgstr ""
 
 #: Source/spelldat.cpp:32
 msgctxt "spell"
 msgid "Infravision"
-msgstr "Infravisione"
+msgstr ""
 
 #: Source/spelldat.cpp:33
 msgctxt "spell"
 msgid "Phasing"
-msgstr "Fase"
+msgstr ""
 
 #: Source/spelldat.cpp:34
 msgctxt "spell"
 msgid "Mana Shield"
-msgstr "Scudo Magico"
+msgstr ""
 
 #: Source/spelldat.cpp:35
 msgctxt "spell"
 msgid "Fireball"
-msgstr "Sfera Infuocata"
+msgstr ""
 
 #: Source/spelldat.cpp:36
 msgctxt "spell"
 msgid "Guardian"
-msgstr "Custode"
+msgstr ""
 
 #: Source/spelldat.cpp:37
 msgctxt "spell"
 msgid "Chain Lightning"
-msgstr "Catena di Fulmini"
+msgstr ""
 
 #: Source/spelldat.cpp:38
 msgctxt "spell"
 msgid "Flame Wave"
-msgstr "Ondata di Fiamme"
+msgstr ""
 
 #: Source/spelldat.cpp:39
 msgctxt "spell"
 msgid "Doom Serpents"
-msgstr "Serpenti del Fato"
+msgstr ""
 
 #: Source/spelldat.cpp:40
 msgctxt "spell"
 msgid "Blood Ritual"
-msgstr "Rito di Sangue"
+msgstr ""
 
 #: Source/spelldat.cpp:41
 msgctxt "spell"
 msgid "Nova"
-msgstr "Nova"
+msgstr ""
 
 #: Source/spelldat.cpp:42
 msgctxt "spell"
 msgid "Invisibility"
-msgstr "Invisibilità"
+msgstr ""
 
 #: Source/spelldat.cpp:43
 msgctxt "spell"
 msgid "Inferno"
-msgstr "Inferno"
+msgstr ""
 
 #: Source/spelldat.cpp:44
 msgctxt "spell"
 msgid "Golem"
-msgstr "Golem"
+msgstr ""
 
 #: Source/spelldat.cpp:45
 msgctxt "spell"
 msgid "Rage"
-msgstr "Ira"
+msgstr ""
 
 #: Source/spelldat.cpp:46
 msgctxt "spell"
 msgid "Teleport"
-msgstr "Teletrasporto"
+msgstr ""
 
 #: Source/spelldat.cpp:47
 msgctxt "spell"
 msgid "Apocalypse"
-msgstr "Apocalisse"
+msgstr ""
 
 #: Source/spelldat.cpp:48
 msgctxt "spell"
 msgid "Etherealize"
-msgstr "Eterealizza"
+msgstr ""
 
 #: Source/spelldat.cpp:49
 msgctxt "spell"
 msgid "Item Repair"
-msgstr "Ripara Oggetto"
+msgstr ""
 
 #: Source/spelldat.cpp:50
 msgctxt "spell"
 msgid "Staff Recharge"
-msgstr "Ricarica Verga"
+msgstr ""
 
 #: Source/spelldat.cpp:51
 msgctxt "spell"
 msgid "Trap Disarm"
-msgstr "Disarma Trappola"
+msgstr ""
 
 #: Source/spelldat.cpp:52
 msgctxt "spell"
 msgid "Elemental"
-msgstr "Elementale"
+msgstr ""
 
 #: Source/spelldat.cpp:53
 msgctxt "spell"
 msgid "Charged Bolt"
-msgstr "Scarica Fulminea"
+msgstr ""
 
 #: Source/spelldat.cpp:54
 msgctxt "spell"
 msgid "Holy Bolt"
-msgstr "Scarica Energetica"
+msgstr ""
 
 #: Source/spelldat.cpp:55
 msgctxt "spell"
 msgid "Resurrect"
-msgstr "Resurrezione"
+msgstr ""
 
 #: Source/spelldat.cpp:56
 msgctxt "spell"
 msgid "Telekinesis"
-msgstr "Telecinesi"
+msgstr ""
 
 #: Source/spelldat.cpp:57
 msgctxt "spell"
 msgid "Heal Other"
-msgstr "Cura"
+msgstr ""
 
 #: Source/spelldat.cpp:58
 msgctxt "spell"
 msgid "Blood Star"
-msgstr "Stella Cruenta"
+msgstr ""
 
 #: Source/spelldat.cpp:59
 msgctxt "spell"
 msgid "Bone Spirit"
-msgstr "Spirito Osseo"
+msgstr ""
 
 #: Source/spelldat.cpp:60
 msgctxt "spell"
 msgid "Mana"
-msgstr "Mana"
+msgstr ""
 
 #: Source/spelldat.cpp:61
 msgctxt "spell"
 msgid "the Magi"
-msgstr "il Magi"
+msgstr ""
 
 #: Source/spelldat.cpp:62
 msgctxt "spell"
 msgid "the Jester"
-msgstr "Jester"
+msgstr ""
 
 #: Source/spelldat.cpp:63
 msgctxt "spell"
 msgid "Lightning Wall"
-msgstr "Muro Fulmineo"
+msgstr ""
 
 #: Source/spelldat.cpp:64
 msgctxt "spell"
 msgid "Immolation"
-msgstr "Sacrificio"
+msgstr ""
 
 #: Source/spelldat.cpp:65
 msgctxt "spell"
 msgid "Warp"
-msgstr "Deformazione"
+msgstr ""
 
 #: Source/spelldat.cpp:66
 msgctxt "spell"
 msgid "Reflect"
-msgstr "Riflesso"
+msgstr ""
 
 #: Source/spelldat.cpp:67
 msgctxt "spell"
 msgid "Berserk"
-msgstr "Berserk"
+msgstr ""
 
 #: Source/spelldat.cpp:68
 msgctxt "spell"
 msgid "Ring of Fire"
-msgstr "Anello di Fuoco"
+msgstr ""
 
 #: Source/spelldat.cpp:69
 msgctxt "spell"
 msgid "Search"
-msgstr "Ricerca"
+msgstr ""
 
 #: Source/spelldat.cpp:70
 msgctxt "spell"
 msgid "Rune of Fire"
-msgstr "Runa di Fuoco"
+msgstr ""
 
 #: Source/spelldat.cpp:71
 msgctxt "spell"
 msgid "Rune of Light"
-msgstr "Runa della Luce"
+msgstr ""
 
 #: Source/spelldat.cpp:72
 msgctxt "spell"
 msgid "Rune of Nova"
-msgstr "Runa"
+msgstr ""
 
 #: Source/spelldat.cpp:73
 msgctxt "spell"
 msgid "Rune of Immolation"
-msgstr "Runa del Sacrificio"
+msgstr ""
 
 #: Source/spelldat.cpp:74
 msgctxt "spell"
 msgid "Rune of Stone"
-msgstr "Runa di Pietra"
+msgstr ""
 
 #: Source/stores.cpp:129
 msgid "Griswold"
@@ -11949,4 +11949,4 @@ msgstr "Cittadino Morto"
 #. TRANSLATORS: Thousands separator
 #: Source/utils/format_int.cpp:26
 msgid ","
-msgstr "."
+msgstr ""

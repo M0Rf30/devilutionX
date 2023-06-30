@@ -3,7 +3,7 @@ name: Linux x86 (i386-linux-gnu)
 on:
   push:
     branches:
-      - master
+      - "*"
     paths-ignore:
       - '*.md'
   pull_request:

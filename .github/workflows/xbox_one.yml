@@ -3,7 +3,7 @@ name: Xbox One / Series
 on:
   push:
     branches:
-      - master
+      - "*"
     paths-ignore:
       - '*.md'
   pull_request:

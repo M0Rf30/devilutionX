@@ -3,7 +3,7 @@ name: Windows MSVC x64
 on:
   push:
     branches:
-      - master
+      - "*"
     paths-ignore:
       - '*.md'
   pull_request:
